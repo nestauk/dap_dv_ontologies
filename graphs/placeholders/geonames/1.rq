@@ -1,0 +1,7 @@
+# 1: Find types for all possible subjects.
+
+SELECT DISTINCT ?v1
+WHERE
+{
+    %% v %% rdf:type ?v1 .
+}

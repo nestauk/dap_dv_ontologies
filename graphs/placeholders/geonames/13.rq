@@ -1,0 +1,9 @@
+# 13: Find all objects that match 'pes' as a regular expression.
+
+SELECT DISTINCT ?v2 ?v3
+WHERE
+{
+    ?v2 rdf:type %% v %% ;
+    rdfs:label ?v3 .
+    FILTER (regex(?v3, 'pes', 'i ')) 
+}

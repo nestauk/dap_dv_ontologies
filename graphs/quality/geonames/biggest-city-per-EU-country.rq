@@ -1,0 +1,27 @@
+PREFIX  xsd:  <http://www.w3.org/2001/XMLSchema#>
+PREFIX  gn:   <http://www.geonames.org/ontology#>
+
+SELECT ?cityName ?countryName ?population
+WHERE
+{
+    ?city  gn:parentCountry ?country ;
+              gn:population        ?population ;
+              gn:name                 ?cityName .
+       
+    ?country gn:name ?countryName .
+    ?country gn:parentFeature/gn:name "European Union" .
+
+    {
+        SELECT ?country (MAX(?population) AS ?population)
+        WHERE 
+        {
+            ?city   a                gn:Feature ;
+                    gn:featureClass  <https://www.geonames.org/ontology#P> ;
+                    gn:population    ?population ;
+                    gn:parentCountry ?country .
+
+        }
+        GROUP BY ?country
+        ORDER BY DESC(?population)
+    }
+}

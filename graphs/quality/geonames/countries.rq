@@ -1,0 +1,9 @@
+PREFIX gn: <http://www.geonames.org/ontology#>
+
+SELECT ?country ?name
+WHERE {
+    ?country a gn:Feature .
+    ?country gn:name ?name .
+    # A.PCLI is feature  code for 'independent political entity'
+    ?country gn:featureCode <https://www.geonames.org/ontology#A.PCLI> .
+}

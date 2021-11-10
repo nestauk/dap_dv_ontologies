@@ -1,0 +1,18 @@
+PREFIX gn: <http://www.geonames.org/ontology#>
+
+SELECT ?feature ?name
+WHERE {
+    ?feature a gn:Feature .
+    ?feature gn:name ?name .
+    ?feature gn:featureCode <https://www.geonames.org/ontology#A.PCLD> .
+
+    # optional queries mean values still returned even if no value is found
+    # however the value will be blank, or !bound
+    OPTIONAL { 
+        ?feature gn:parentFeature ?parent .
+        ?parent gn:name ?parentName .
+        FILTER (regex(?parentName, "Europe")) 
+    }
+    # if the parentName didn't return Europe, filter out row
+    FILTER (!bound(?parentName))
+}

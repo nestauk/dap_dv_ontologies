@@ -1,0 +1,10 @@
+PREFIX  xsd:  <http://www.w3.org/2001/XMLSchema#>
+PREFIX gn: <http://www.geonames.org/ontology#>
+
+DELETE {?s gn:population ?pop } 
+INSERT {?s gn:population ?newPop } 
+WHERE 
+{
+    ?s gn:population ?pop .
+    BIND(xsd:integer(?pop) AS ?newPop)
+}

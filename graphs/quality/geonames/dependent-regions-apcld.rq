@@ -1,0 +1,9 @@
+PREFIX gn: <http://www.geonames.org/ontology#>
+
+SELECT ?feature ?name
+WHERE {
+    ?feature a gn:Feature .
+    ?feature gn:name ?name .
+    # A.PCLD is feature  code for 'dependent political entity'
+    ?feature gn:featureCode <https://www.geonames.org/ontology#A.PCLD> .
+}

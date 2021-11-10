@@ -1,0 +1,9 @@
+PREFIX gn: <http://www.geonames.org/ontology#>
+
+SELECT ?name ?region
+WHERE {
+   ?region gn:parentFeature ?country .
+   ?country gn:parentFeature ?continent .
+   ?continent gn:name "European Union" .
+   ?region gn:name ?name .
+}

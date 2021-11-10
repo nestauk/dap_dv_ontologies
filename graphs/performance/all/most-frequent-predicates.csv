@@ -1,0 +1,11 @@
+"predicate","frequency"
+"http://www.w3.org/1999/02/22-rdf-syntax-ns#type",333912404
+"http://www.w3.org/2002/07/owl#sameAs",126195158
+"http://www.opengis.net/ont/geosparql#asWKT",124409719
+"http://www.w3.org/2000/01/rdf-schema#label",70566167
+"http://dbpedia.org/property/wikiPageUsesTemplate",57977269
+"http://purl.org/dc/terms/subject",33421264
+"http://www.w3.org/2003/01/geo/wgs84_pos#long",24042613
+"http://www.w3.org/2003/01/geo/wgs84_pos#lat",24042610
+"http://www.w3.org/2000/01/rdf-schema#comment",22945630
+"http://dbpedia.org/ontology/abstract",22945629

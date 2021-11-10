@@ -1,0 +1,5 @@
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+SELECT ?type (COUNT(?type) AS ?typeCount)
+WHERE { ?subject a ?type }
+ORDER BY DESC(?typeCount)

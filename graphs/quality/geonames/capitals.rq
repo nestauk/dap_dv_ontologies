@@ -1,0 +1,12 @@
+PREFIX gn: <http://www.geonames.org/ontology#>
+
+SELECT ?capital ?countryName ?capitalName
+WHERE {
+    ?capital a gn:Feature .
+    ?capital gn:name ?capitalName .
+    # A.PCLI is feature  code for 'capital of a political entity'
+    ?capital gn:featureCode <https://www.geonames.org/ontology#P.PPLC> .
+    ?capital gn:parentCountry ?country .
+    ?country gn:name ?countryName .
+}
+ORDER BY ?countryName

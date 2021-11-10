@@ -1,0 +1,5 @@
+SELECT ?predicate (COUNT(*)AS ?frequency)
+WHERE {?subject ?predicate ?object}
+GROUP BY ?predicate
+ORDER BY DESC(?frequency)
+LIMIT 10

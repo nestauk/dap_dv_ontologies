@@ -1,0 +1,11 @@
+PREFIX gn: <http://www.geonames.org/ontology#>
+
+SELECT ?state ?name
+WHERE {
+    ?state a gn:Feature .
+    ?state gn:featureCode <https://www.geonames.org/ontology#A.ADM1> .
+    # IRI for United States
+    ?state gn:parentCountry <https://sws.geonames.org/6252001/> .
+    ?state gn:name ?name .
+}
+ORDER BY ?name

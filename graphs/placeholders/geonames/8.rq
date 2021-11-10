@@ -1,0 +1,17 @@
+# 8: Find varying degrees of population for all possible objects.
+
+SELECT ?v2 ?v4
+WHERE
+{
+    { 
+        ?v2 rdf:type %% v1 %%.
+        ?v2 gn:population ?v4 .
+        FILTER (xsd:integer (?v4) > %% v0 %%) 
+    } 
+    UNION 
+    { 
+        ?v2 rdf:type %% v1 %% .
+        ?v2 dbp-prop:populationUrban ?v4 .
+        FILTER (xsd:integer (?v4) > %% v0 %%) 
+    } 
+}

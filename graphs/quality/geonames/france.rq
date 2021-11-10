@@ -1,0 +1,7 @@
+PREFIX gn: <http://www.geonames.org/ontology#>
+
+SELECT *
+WHERE {
+    # IRI for France
+    <https://sws.geonames.org/3017382/> ?p ?o
+}
