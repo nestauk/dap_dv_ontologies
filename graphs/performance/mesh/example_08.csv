@@ -1,0 +1,7 @@
+"treeNum","ancestorTreeNum","ancestor","alabel"
+"http://id.nlm.nih.gov/mesh/A01.456.505.420.338","http://id.nlm.nih.gov/mesh/A01","http://id.nlm.nih.gov/mesh/D001829","Body Regions"
+"http://id.nlm.nih.gov/mesh/A01.456.505.420.338","http://id.nlm.nih.gov/mesh/A01.456","http://id.nlm.nih.gov/mesh/D006257","Head"
+"http://id.nlm.nih.gov/mesh/A01.456.505.420.338","http://id.nlm.nih.gov/mesh/A01.456.505","http://id.nlm.nih.gov/mesh/D005145","Face"
+"http://id.nlm.nih.gov/mesh/A01.456.505.420.338","http://id.nlm.nih.gov/mesh/A01.456.505.420","http://id.nlm.nih.gov/mesh/D005123","Eye"
+"http://id.nlm.nih.gov/mesh/A17.360.296","http://id.nlm.nih.gov/mesh/A17","http://id.nlm.nih.gov/mesh/D034582","Integumentary System"
+"http://id.nlm.nih.gov/mesh/A17.360.296","http://id.nlm.nih.gov/mesh/A17.360","http://id.nlm.nih.gov/mesh/D006197","Hair"
