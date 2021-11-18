@@ -7,7 +7,7 @@ Graph IRI: `http://id.nlm.nih.gov/mesh`
 cURL command for `neptune`:
 
 ```
-curl -X POST -H 'Content-Type: application/json'
+curl -X POST -H 'Content-Type: application/json' \
 https://geonames-rdf-01.cluster-ci9272ypsbyf.eu-west-2.neptune.amazonaws.com:8182/loader -d '
     {
       "source" : "s3://nesta-graph-data/mesh.nt",
