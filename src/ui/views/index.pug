@@ -1,0 +1,10 @@
+extends layout
+
+block content
+  h1= title
+  form(action="/sparql")
+    label(for="query") Sparql Query:
+    br
+    textarea(class="sparqlQuery" id="query", name="query")
+    br
+    input(type="submit")
