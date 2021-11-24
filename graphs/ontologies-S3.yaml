@@ -1,0 +1,14 @@
+linkedGeoData:
+  URI: s3://nesta-graph-data/OSM/inflated/
+  folder: true
+  type: ntriples
+
+mesh:
+  URI: s3://nesta-graph-data/mesh.nt
+  folder: false
+  type: ntriples
+
+geonames:
+  URI: s3://nesta-graph-data/geonames.rdf
+  folder: false
+  type: rdf

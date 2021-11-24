@@ -1,0 +1,1998 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.3.7), http://vowl.visualdataweb.org",
+  "header" : {
+    "languages" : [ "undefined" ],
+    "baseIris" : [ "http://www.w3.org/2000/01/rdf-schema", "http://id.nlm.nih.gov/mesh/vocab", "http://www.w3.org/2001/XMLSchema" ],
+    "prefixList" : {
+      "owl" : "http://www.w3.org/2002/07/owl#",
+      "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+      "xsd" : "http://www.w3.org/2001/XMLSchema#",
+      "" : "http://www.w3.org/2002/07/owl#",
+      "dct" : "http://purl.org/dc/terms/",
+      "xml" : "http://www.w3.org/XML/1998/namespace",
+      "rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+    },
+    "iri" : "http://id.nlm.nih.gov/mesh/vocab#",
+    "version" : "1.0.0",
+    "other" : {
+      "versionInfo" : [ {
+        "identifier" : "versionInfo",
+        "language" : "undefined",
+        "value" : "1.0.0",
+        "type" : "label"
+      } ]
+    }
+  },
+  "namespace" : [ ],
+  "class" : [ {
+    "id" : "10",
+    "type" : "owl:Class"
+  }, {
+    "id" : "12",
+    "type" : "owl:Class"
+  }, {
+    "id" : "41",
+    "type" : "owl:Class"
+  }, {
+    "id" : "42",
+    "type" : "owl:Class"
+  }, {
+    "id" : "25",
+    "type" : "owl:Class"
+  }, {
+    "id" : "46",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "61",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "48",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "20",
+    "type" : "owl:Class"
+  }, {
+    "id" : "38",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "36",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "21",
+    "type" : "owl:Class"
+  }, {
+    "id" : "44",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "40",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "71",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "29",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "72",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "34",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "73",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "74",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "11",
+    "type" : "owl:Class"
+  }, {
+    "id" : "55",
+    "type" : "owl:Class"
+  }, {
+    "id" : "24",
+    "type" : "owl:Class"
+  }, {
+    "id" : "7",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "82",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "79",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "83",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "6",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "86",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "1",
+    "type" : "owl:Class"
+  }, {
+    "id" : "27",
+    "type" : "owl:Class"
+  }, {
+    "id" : "52",
+    "type" : "owl:Class"
+  }, {
+    "id" : "9",
+    "type" : "owl:Class"
+  }, {
+    "id" : "101",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "16",
+    "type" : "owl:Class"
+  }, {
+    "id" : "102",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "106",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "107",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "81",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "76",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "4",
+    "type" : "owl:Class"
+  }, {
+    "id" : "68",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "110",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "70",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "112",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "114",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "115",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "116",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "31",
+    "type" : "owl:Class"
+  } ],
+  "classAttribute" : [ {
+    "iri" : "http://id.nlm.nih.gov/mesh/vocab#GeographicalDescriptor",
+    "baseIri" : "http://id.nlm.nih.gov/mesh/vocab",
+    "instances" : 0,
+    "description" : {
+      "undefined" : "A descriptor that references places or regions of the world, such as D001061, 'Appalachian Region'."
+    },
+    "label" : {
+      "IRI-based" : "GeographicalDescriptor",
+      "undefined" : "MeSH GeographicalDescriptor"
+    },
+    "comment" : {
+      "undefined" : "A descriptor that references places or regions of the world, such as D001061, 'Appalachian Region'."
+    },
+    "id" : "10",
+    "superClasses" : [ "11" ]
+  }, {
+    "iri" : "http://id.nlm.nih.gov/mesh/vocab#TopicalDescriptor",
+    "baseIri" : "http://id.nlm.nih.gov/mesh/vocab",
+    "instances" : 0,
+    "description" : {
+      "undefined" : "Topical Descriptors indicate the subject of an indexed item such as a journal article. See D063926, 'Drug Hypersensitivity Syndrome', for an example."
+    },
+    "label" : {
+      "IRI-based" : "TopicalDescriptor",
+      "undefined" : "MeSH TopicalDescriptor"
+    },
+    "comment" : {
+      "undefined" : "Topical Descriptors indicate the subject of an indexed item such as a journal article. See D063926, 'Drug Hypersensitivity Syndrome', for an example."
+    },
+    "id" : "12",
+    "superClasses" : [ "11" ]
+  }, {
+    "iri" : "http://id.nlm.nih.gov/mesh/vocab#CheckTag",
+    "baseIri" : "http://id.nlm.nih.gov/mesh/vocab",
+    "instances" : 0,
+    "description" : {
+      "undefined" : "A special class of descriptor singled out because they are so frequently applied to biomedical literature. There are only 2 Descriptors that are members of the class meshv:CheckTag: D005260 (Male) and D008297 (Female). These two Descriptors do not have tree numbers. "
+    },
+    "label" : {
+      "IRI-based" : "CheckTag",
+      "undefined" : "MeSH CheckTag"
+    },
+    "comment" : {
+      "undefined" : "A special class of descriptor singled out because they are so frequently applied to biomedical literature. There are only 2 Descriptors that are members of the class meshv:CheckTag: D005260 (Male) and D008297 (Female). These two Descriptors do not have tree numbers. "
+    },
+    "id" : "41",
+    "superClasses" : [ "11" ]
+  }, {
+    "iri" : "http://id.nlm.nih.gov/mesh/vocab#PublicationType",
+    "baseIri" : "http://id.nlm.nih.gov/mesh/vocab",
+    "instances" : 0,
+    "description" : {
+      "undefined" : "A special class of descriptor that describes what type of publication a resource is as opposed to what it is about. All MeSH Publication Types are in the V tree."
+    },
+    "label" : {
+      "IRI-based" : "PublicationType",
+      "undefined" : "MeSH PublicationType"
+    },
+    "comment" : {
+      "undefined" : "A special class of descriptor that describes what type of publication a resource is as opposed to what it is about. All MeSH Publication Types are in the V tree."
+    },
+    "id" : "42",
+    "superClasses" : [ "11" ]
+  }, {
+    "iri" : "http://id.nlm.nih.gov/mesh/vocab#SCR_Protocol",
+    "baseIri" : "http://id.nlm.nih.gov/mesh/vocab",
+    "instances" : 0,
+    "description" : {
+      "undefined" : "MeSH protocols are therapies in the domain of cancer treatment."
+    },
+    "label" : {
+      "IRI-based" : "SCR_Protocol",
+      "undefined" : "MeSH SCR Protocol"
+    },
+    "comment" : {
+      "undefined" : "MeSH protocols are therapies in the domain of cancer treatment."
+    },
+    "id" : "25",
+    "superClasses" : [ "52" ]
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "46",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "61",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "48",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://id.nlm.nih.gov/mesh/vocab#AllowedDescriptorQualifierPair",
+    "baseIri" : "http://id.nlm.nih.gov/mesh/vocab",
+    "instances" : 0,
+    "description" : {
+      "undefined" : "A combined MeSH descriptor and qualifier, where the pairing is allowed by MeSH rules. These URIs are a mash up of the descriptor and qualifier identifiers, such as D000236Q000235."
+    },
+    "label" : {
+      "IRI-based" : "AllowedDescriptorQualifierPair",
+      "undefined" : "MeSH AllowedDescriptorQualifierPair"
+    },
+    "comment" : {
+      "undefined" : "A combined MeSH descriptor and qualifier, where the pairing is allowed by MeSH rules. These URIs are a mash up of the descriptor and qualifier identifiers, such as D000236Q000235."
+    },
+    "id" : "20",
+    "superClasses" : [ "55" ]
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "38",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "36",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://id.nlm.nih.gov/mesh/vocab#DisallowedDescriptorQualifierPair",
+    "baseIri" : "http://id.nlm.nih.gov/mesh/vocab",
+    "instances" : 0,
+    "description" : {
+      "undefined" : "A combined MeSH descriptor and qualifier where the pairing is not allowed by MeSH rules, such as Abdomen/radiography."
+    },
+    "label" : {
+      "IRI-based" : "DisallowedDescriptorQualifierPair",
+      "undefined" : "MeSH DisallowedDescriptorQualifierPair"
+    },
+    "comment" : {
+      "undefined" : "A combined MeSH descriptor and qualifier where the pairing is not allowed by MeSH rules, such as Abdomen/radiography."
+    },
+    "id" : "21",
+    "superClasses" : [ "55" ]
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "44",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "40",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "71",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "29",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "72",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "34",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "73",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "74",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://id.nlm.nih.gov/mesh/vocab#Descriptor",
+    "baseIri" : "http://id.nlm.nih.gov/mesh/vocab",
+    "instances" : 0,
+    "description" : {
+      "undefined" : "MeSH Descriptors are a cluster of one or more concepts used to describe what a publication is about. meshv:Descriptor is the parent class of meshv:TopicalDescriptor, meshv:GeographicDescriptor, meshv:PublicationType, and meshv:CheckTag."
+    },
+    "label" : {
+      "IRI-based" : "Descriptor",
+      "undefined" : "MeSH Descriptor"
+    },
+    "subClasses" : [ "12", "41", "42", "10" ],
+    "comment" : {
+      "undefined" : "MeSH Descriptors are a cluster of one or more concepts used to describe what a publication is about. meshv:Descriptor is the parent class of meshv:TopicalDescriptor, meshv:GeographicDescriptor, meshv:PublicationType, and meshv:CheckTag."
+    },
+    "id" : "11"
+  }, {
+    "iri" : "http://id.nlm.nih.gov/mesh/vocab#DescriptorQualifierPair",
+    "baseIri" : "http://id.nlm.nih.gov/mesh/vocab",
+    "instances" : 0,
+    "description" : {
+      "undefined" : "A combined MeSH descriptor and qualifier pair. Allowed pairs (according to MeSH rules) belong to the class meshv:AllowedDescriptorQualifierPair. Disallowed pairs belong to the class meshv:DisallowedDescriptorQualifierPair."
+    },
+    "label" : {
+      "IRI-based" : "DescriptorQualifierPair",
+      "undefined" : "MeSH DescriptorQualifierPair"
+    },
+    "subClasses" : [ "21", "20" ],
+    "comment" : {
+      "undefined" : "A combined MeSH descriptor and qualifier pair. Allowed pairs (according to MeSH rules) belong to the class meshv:AllowedDescriptorQualifierPair. Disallowed pairs belong to the class meshv:DisallowedDescriptorQualifierPair."
+    },
+    "id" : "55"
+  }, {
+    "iri" : "http://id.nlm.nih.gov/mesh/vocab#SCR_Disease",
+    "baseIri" : "http://id.nlm.nih.gov/mesh/vocab",
+    "instances" : 0,
+    "description" : {
+      "undefined" : "SCR Diseases were originally brought into MeSH from a list maintained by the Office of Rare Diseases Research."
+    },
+    "label" : {
+      "IRI-based" : "SCR_Disease",
+      "undefined" : "MeSH SCR Disease"
+    },
+    "comment" : {
+      "undefined" : "SCR Diseases were originally brought into MeSH from a list maintained by the Office of Rare Diseases Research."
+    },
+    "id" : "24",
+    "superClasses" : [ "52" ]
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "7",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "82",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "79",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "83",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "6",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "86",
+    "label" : {
+      "IRI-based" : "boolean"
+    }
+  }, {
+    "iri" : "http://id.nlm.nih.gov/mesh/vocab#Qualifier",
+    "baseIri" : "http://id.nlm.nih.gov/mesh/vocab",
+    "instances" : 0,
+    "description" : {
+      "undefined" : "Also known as Subheadings, these provide context to the use of a MeSH Heading."
+    },
+    "label" : {
+      "IRI-based" : "Qualifier",
+      "undefined" : "MeSH Qualifier"
+    },
+    "comment" : {
+      "undefined" : "Also known as Subheadings, these provide context to the use of a MeSH Heading."
+    },
+    "id" : "1"
+  }, {
+    "iri" : "http://id.nlm.nih.gov/mesh/vocab#SCR_Chemical",
+    "baseIri" : "http://id.nlm.nih.gov/mesh/vocab",
+    "instances" : 0,
+    "description" : {
+      "undefined" : "These are chemicals, drugs, enzymes, vitamins, etc."
+    },
+    "label" : {
+      "IRI-based" : "SCR_Chemical",
+      "undefined" : "MeSH SCR Chemical"
+    },
+    "comment" : {
+      "undefined" : "These are chemicals, drugs, enzymes, vitamins, etc."
+    },
+    "id" : "27",
+    "superClasses" : [ "52" ]
+  }, {
+    "iri" : "http://id.nlm.nih.gov/mesh/vocab#SupplementaryConceptRecord",
+    "baseIri" : "http://id.nlm.nih.gov/mesh/vocab",
+    "instances" : 0,
+    "description" : {
+      "undefined" : "Supplementary Concepts are created in MeSH to aid in searching the large volume of mainly chemicals and drugs. meshv:SupplementaryConceptRecord has three sub-classes: meshv:RegularSubstance, meshv:SCR_Protocol, and meshv:SCR_Disease."
+    },
+    "label" : {
+      "IRI-based" : "SupplementaryConceptRecord",
+      "undefined" : "MeSH SupplementaryConceptRecord "
+    },
+    "subClasses" : [ "24", "27", "31", "25" ],
+    "comment" : {
+      "undefined" : "Supplementary Concepts are created in MeSH to aid in searching the large volume of mainly chemicals and drugs. meshv:SupplementaryConceptRecord has three sub-classes: meshv:RegularSubstance, meshv:SCR_Protocol, and meshv:SCR_Disease."
+    },
+    "id" : "52"
+  }, {
+    "iri" : "http://id.nlm.nih.gov/mesh/vocab#Concept",
+    "baseIri" : "http://id.nlm.nih.gov/mesh/vocab",
+    "instances" : 0,
+    "description" : {
+      "undefined" : "MeSH concepts are meanings. Many MeSH concepts contain synonymous terms. meshv:Concept identifiers begin with 'M' such as M0000013,  'Congenital Abnormalities'."
+    },
+    "label" : {
+      "IRI-based" : "Concept",
+      "undefined" : "MeSH Concept"
+    },
+    "comment" : {
+      "undefined" : "MeSH concepts are meanings. Many MeSH concepts contain synonymous terms. meshv:Concept identifiers begin with 'M' such as M0000013,  'Congenital Abnormalities'."
+    },
+    "id" : "9"
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "101",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://id.nlm.nih.gov/mesh/vocab#Term",
+    "baseIri" : "http://id.nlm.nih.gov/mesh/vocab",
+    "instances" : 0,
+    "description" : {
+      "undefined" : "MeSH terms provide synonymous names for MeSH concepts. Terms have 'T' identifiers, and are considered either preferred or lexical variants, such as 'Congenital Abnormalities' as opposed to 'Abnormality, Congenital'."
+    },
+    "label" : {
+      "IRI-based" : "Term",
+      "undefined" : "MeSH Term"
+    },
+    "comment" : {
+      "undefined" : "MeSH terms provide synonymous names for MeSH concepts. Terms have 'T' identifiers, and are considered either preferred or lexical variants, such as 'Congenital Abnormalities' as opposed to 'Abnormality, Congenital'."
+    },
+    "id" : "16"
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "102",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "106",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "107",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "81",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "76",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://id.nlm.nih.gov/mesh/vocab#TreeNumber",
+    "baseIri" : "http://id.nlm.nih.gov/mesh/vocab",
+    "instances" : 0,
+    "description" : {
+      "undefined" : "Tree Numbers are used to organize MeSH Descriptors in a broader-than/narrower-than manner."
+    },
+    "label" : {
+      "IRI-based" : "TreeNumber",
+      "undefined" : "MeSH TreeNumber"
+    },
+    "comment" : {
+      "undefined" : "Tree Numbers are used to organize MeSH Descriptors in a broader-than/narrower-than manner."
+    },
+    "id" : "4"
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "68",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "110",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "70",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "112",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "114",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "115",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "116",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://id.nlm.nih.gov/mesh/vocab#SCR_Organism",
+    "baseIri" : "http://id.nlm.nih.gov/mesh/vocab",
+    "instances" : 0,
+    "description" : {
+      "undefined" : "SCR Organisms includes viruses and more broadly organisms (B cat)."
+    },
+    "label" : {
+      "IRI-based" : "SCR_Organism",
+      "undefined" : "MeSH SCR Organism"
+    },
+    "comment" : {
+      "undefined" : "SCR Organisms includes viruses and more broadly organisms (B cat)."
+    },
+    "id" : "31",
+    "superClasses" : [ "52" ]
+  } ],
+  "property" : [ {
+    "id" : "0",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "3",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "5",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "8",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "13",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "14",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "15",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "17",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "18",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "19",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "22",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "23",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "26",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "28",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "30",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "32",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "33",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "35",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "37",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "39",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "43",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "45",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "47",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "49",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "50",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "51",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "53",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "54",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "56",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "57",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "58",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "59",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "60",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "2",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "62",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "64",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "66",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "67",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "69",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "75",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "77",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "78",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "80",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "84",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "85",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "87",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "65",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "88",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "89",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "90",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "91",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "92",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "93",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "94",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "95",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "96",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "97",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "98",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "99",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "100",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "103",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "104",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "105",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "108",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "109",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "111",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "113",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "117",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "119",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "120",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "121",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "122",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "123",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "124",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "125",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "126",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "127",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "128",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "129",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "130",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "131",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "132",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "133",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "134",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "135",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "136",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "137",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "138",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "63",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "118",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "139",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "140",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "141",
+    "type" : "rdfs:SubClassOf"
+  } ],
+  "propertyAttribute" : [ {
+    "iri" : "http://id.nlm.nih.gov/mesh/vocab#broaderQualifier",
+    "baseIri" : "http://id.nlm.nih.gov/mesh/vocab",
+    "range" : "1",
+    "description" : {
+      "undefined" : "Relates one Qualifier to another. The immediate parent Qualifier(s) of a given Qualifier based on the TreeNumber hierarchy. Example: QUI Q000458 (organization & administration) is a parent of QUI Q000592 (standards)."
+    },
+    "label" : {
+      "IRI-based" : "broaderQualifier",
+      "undefined" : "broaderQualifier"
+    },
+    "superproperty" : [ "2" ],
+    "domain" : "1",
+    "comment" : {
+      "undefined" : "Relates one Qualifier to another. The immediate parent Qualifier(s) of a given Qualifier based on the TreeNumber hierarchy. Example: QUI Q000458 (organization & administration) is a parent of QUI Q000592 (standards)."
+    },
+    "attributes" : [ "object" ],
+    "id" : "0"
+  }, {
+    "range" : "4",
+    "domain" : "1",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "3"
+  }, {
+    "iri" : "http://id.nlm.nih.gov/mesh/vocab#casn1_label",
+    "baseIri" : "http://id.nlm.nih.gov/mesh/vocab",
+    "range" : "7",
+    "description" : {
+      "undefined" : "A property of Concepts. Free-text of the Chemical Abstracts Type N1 Name which is the systematic name used in the Chemical Abstracts Chemical Substance and Formula Indexes. The systematic name is a unique name assigned to a chemical substance to represent its structure. First available in 1995."
+    },
+    "label" : {
+      "IRI-based" : "casn1_label",
+      "undefined" : "casn1_label"
+    },
+    "domain" : "6",
+    "comment" : {
+      "undefined" : "A property of Concepts. Free-text of the Chemical Abstracts Type N1 Name which is the systematic name used in the Chemical Abstracts Chemical Substance and Formula Indexes. The systematic name is a unique name assigned to a chemical substance to represent its structure. First available in 1995."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "5"
+  }, {
+    "iri" : "http://id.nlm.nih.gov/mesh/vocab#broaderConcept",
+    "baseIri" : "http://id.nlm.nih.gov/mesh/vocab",
+    "range" : "9",
+    "description" : {
+      "undefined" : "Relates one Concept to another. A semantic relationship between two Concepts, usually between the preferred concept and subordinate concept(s) where one is broader in meaning. Example: M0024816 is broader than M0024811."
+    },
+    "label" : {
+      "IRI-based" : "broaderConcept",
+      "undefined" : "broaderConcept"
+    },
+    "superproperty" : [ "2" ],
+    "domain" : "9",
+    "comment" : {
+      "undefined" : "Relates one Concept to another. A semantic relationship between two Concepts, usually between the preferred concept and subordinate concept(s) where one is broader in meaning. Example: M0024816 is broader than M0024811."
+    },
+    "attributes" : [ "object" ],
+    "id" : "8"
+  }, {
+    "range" : "1",
+    "domain" : "11",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "13"
+  }, {
+    "range" : "4",
+    "domain" : "11",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "14"
+  }, {
+    "range" : "4",
+    "domain" : "16",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "15"
+  }, {
+    "range" : "16",
+    "domain" : "1",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "17"
+  }, {
+    "iri" : "http://id.nlm.nih.gov/mesh/vocab#broaderDescriptor",
+    "baseIri" : "http://id.nlm.nih.gov/mesh/vocab",
+    "range" : "11",
+    "description" : {
+      "undefined" : "Relates one Descriptor to another. The immediate parent Descriptor(s) of a given Descriptor based on the TreeNumber hierarchy. Example: both DUI D007254 (Information Science) and DUI D008491 (Medical Informatics Applications) are parents of DUI D016247 (Information Storage and Retrieval)."
+    },
+    "label" : {
+      "IRI-based" : "broaderDescriptor",
+      "undefined" : "broaderDescriptor"
+    },
+    "superproperty" : [ "2" ],
+    "domain" : "11",
+    "comment" : {
+      "undefined" : "Relates one Descriptor to another. The immediate parent Descriptor(s) of a given Descriptor based on the TreeNumber hierarchy. Example: both DUI D007254 (Information Science) and DUI D008491 (Medical Informatics Applications) are parents of DUI D016247 (Information Storage and Retrieval)."
+    },
+    "attributes" : [ "object" ],
+    "id" : "18"
+  }, {
+    "range" : "21",
+    "domain" : "20",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "19"
+  }, {
+    "range" : "16",
+    "domain" : "11",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "22"
+  }, {
+    "range" : "25",
+    "domain" : "24",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "23"
+  }, {
+    "range" : "24",
+    "domain" : "27",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "26"
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#label",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "range" : "29",
+    "label" : {
+      "IRI-based" : "label"
+    },
+    "domain" : "6",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "28"
+  }, {
+    "range" : "25",
+    "domain" : "31",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "30"
+  }, {
+    "range" : "24",
+    "domain" : "31",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "32"
+  }, {
+    "iri" : "http://id.nlm.nih.gov/mesh/vocab#prefLabel",
+    "baseIri" : "http://id.nlm.nih.gov/mesh/vocab",
+    "range" : "34",
+    "description" : {
+      "undefined" : "A property of Terms. The preferred string for the term. meshv:prefLabel is a subproperty of rdfs:label."
+    },
+    "label" : {
+      "IRI-based" : "prefLabel",
+      "undefined" : "prefLabel"
+    },
+    "domain" : "6",
+    "comment" : {
+      "undefined" : "A property of Terms. The preferred string for the term. meshv:prefLabel is a subproperty of rdfs:label."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "33"
+  }, {
+    "iri" : "http://id.nlm.nih.gov/mesh/vocab#annotation",
+    "baseIri" : "http://id.nlm.nih.gov/mesh/vocab",
+    "range" : "36",
+    "description" : {
+      "undefined" : "A property of Descriptors or Qualifiers. Free-text information for indexers and catalogers concerning the use of the Descriptor or Qualifier."
+    },
+    "label" : {
+      "IRI-based" : "annotation",
+      "undefined" : "annotation"
+    },
+    "domain" : "6",
+    "comment" : {
+      "undefined" : "A property of Descriptors or Qualifiers. Free-text information for indexers and catalogers concerning the use of the Descriptor or Qualifier."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "35"
+  }, {
+    "iri" : "http://id.nlm.nih.gov/mesh/vocab#sortVersion",
+    "baseIri" : "http://id.nlm.nih.gov/mesh/vocab",
+    "range" : "38",
+    "description" : {
+      "undefined" : "A property of Terms. Custom version of a Term label used to sort properly in a print product; format is all uppercase."
+    },
+    "label" : {
+      "IRI-based" : "sortVersion",
+      "undefined" : "sortVersion"
+    },
+    "domain" : "6",
+    "comment" : {
+      "undefined" : "A property of Terms. Custom version of a Term label used to sort properly in a print product; format is all uppercase."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "37"
+  }, {
+    "iri" : "http://id.nlm.nih.gov/mesh/vocab#dateRevised",
+    "baseIri" : "http://id.nlm.nih.gov/mesh/vocab",
+    "range" : "40",
+    "description" : {
+      "undefined" : "A property of Descriptors, Qualifiers, or SupplementaryConceptRecords. Indicates that a revision was made to Descriptor, Qualifier, or SupplementaryConceptRecord data in YYYY-MM-DD format."
+    },
+    "label" : {
+      "IRI-based" : "dateRevised",
+      "undefined" : "dateRevised"
+    },
+    "domain" : "6",
+    "comment" : {
+      "undefined" : "A property of Descriptors, Qualifiers, or SupplementaryConceptRecords. Indicates that a revision was made to Descriptor, Qualifier, or SupplementaryConceptRecord data in YYYY-MM-DD format."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "39"
+  }, {
+    "iri" : "http://id.nlm.nih.gov/mesh/vocab#allowableQualifier",
+    "baseIri" : "http://id.nlm.nih.gov/mesh/vocab",
+    "range" : "1",
+    "description" : {
+      "undefined" : "Relates Descriptors to Qualifiers. A specific Qualifier allowed in combination with the Descriptor."
+    },
+    "label" : {
+      "IRI-based" : "allowableQualifier",
+      "undefined" : "allowableQualifier"
+    },
+    "domain" : "44",
+    "comment" : {
+      "undefined" : "Relates Descriptors to Qualifiers. A specific Qualifier allowed in combination with the Descriptor."
+    },
+    "attributes" : [ "object" ],
+    "id" : "43"
+  }, {
+    "iri" : "http://id.nlm.nih.gov/mesh/vocab#lexicalTag",
+    "baseIri" : "http://id.nlm.nih.gov/mesh/vocab",
+    "range" : "46",
+    "description" : {
+      "undefined" : "A property of Terms. A 3-letter value that indicates the lexical category. Valid values with their meanings in parentheses are: ABB (Abbreviation); ABX (Embedded abbreviation); ACR (Acronym); ACX (Embedded acronym); EPO (Eponym); LAB (Lab number); NAM (Proper name); NON (None); and TRD (Trade name). Note that in the XML, a Permuted Term will always have the same Lexical Tag value as the term from which it is generated."
+    },
+    "label" : {
+      "IRI-based" : "lexicalTag",
+      "undefined" : "lexicalTag"
+    },
+    "domain" : "6",
+    "comment" : {
+      "undefined" : "A property of Terms. A 3-letter value that indicates the lexical category. Valid values with their meanings in parentheses are: ABB (Abbreviation); ABX (Embedded abbreviation); ACR (Acronym); ACX (Embedded acronym); EPO (Eponym); LAB (Lab number); NAM (Proper name); NON (None); and TRD (Trade name). Note that in the XML, a Permuted Term will always have the same Lexical Tag value as the term from which it is generated."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "45"
+  }, {
+    "iri" : "http://id.nlm.nih.gov/mesh/vocab#altLabel",
+    "baseIri" : "http://id.nlm.nih.gov/mesh/vocab",
+    "range" : "48",
+    "description" : {
+      "undefined" : "A property of Terms. A lexical variant for a Term’s prefLabel. meshv:altLabel is a subproperty of rdfs:label"
+    },
+    "label" : {
+      "IRI-based" : "altLabel",
+      "undefined" : "altLabel"
+    },
+    "domain" : "6",
+    "comment" : {
+      "undefined" : "A property of Terms. A lexical variant for a Term’s prefLabel. meshv:altLabel is a subproperty of rdfs:label"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "47"
+  }, {
+    "range" : "25",
+    "domain" : "27",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "49"
+  }, {
+    "range" : "4",
+    "domain" : "9",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "50"
+  }, {
+    "range" : "31",
+    "domain" : "27",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "51"
+  }, {
+    "range" : "16",
+    "domain" : "9",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "53"
+  }, {
+    "range" : "55",
+    "domain" : "1",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "54"
+  }, {
+    "range" : "9",
+    "domain" : "11",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "56"
+  }, {
+    "range" : "9",
+    "domain" : "1",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "57"
+  }, {
+    "range" : "16",
+    "domain" : "55",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "58"
+  }, {
+    "range" : "55",
+    "domain" : "11",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "59"
+  }, {
+    "range" : "9",
+    "domain" : "55",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "60"
+  }, {
+    "iri" : "http://id.nlm.nih.gov/mesh/vocab#broader",
+    "baseIri" : "http://id.nlm.nih.gov/mesh/vocab",
+    "range" : "6",
+    "label" : {
+      "IRI-based" : "broader"
+    },
+    "domain" : "6",
+    "subproperty" : [ "0", "18", "8" ],
+    "attributes" : [ "object" ],
+    "id" : "2"
+  }, {
+    "iri" : "http://id.nlm.nih.gov/mesh/vocab#term",
+    "baseIri" : "http://id.nlm.nih.gov/mesh/vocab",
+    "range" : "6",
+    "description" : {
+      "undefined" : "Relates Concepts to Terms. Each Concept has a set of entry terms and a preferred term that are related to the Concept."
+    },
+    "label" : {
+      "IRI-based" : "term",
+      "undefined" : "term"
+    },
+    "domain" : "6",
+    "subproperty" : [ "63" ],
+    "comment" : {
+      "undefined" : "Relates Concepts to Terms. Each Concept has a set of entry terms and a preferred term that are related to the Concept."
+    },
+    "attributes" : [ "object" ],
+    "id" : "62"
+  }, {
+    "iri" : "http://id.nlm.nih.gov/mesh/vocab#preferredMappedTo",
+    "baseIri" : "http://id.nlm.nih.gov/mesh/vocab",
+    "range" : "6",
+    "description" : {
+      "undefined" : "Relates SupplementaryConceptRecords to Descriptors or DescriptorQualifierPairs. Designates a Descriptor or DescriptorQualifierPair that is a main parent (includes an asterisk designation in the Source XML) for the SupplementaryConceptRecord and that is automatically added to the journal citation for which the SupplementaryConceptRecord is indexed. meshv:preferredMappedTo is a subproperty of meshv:mappedTo."
+    },
+    "label" : {
+      "IRI-based" : "preferredMappedTo",
+      "undefined" : "preferredMappedTo"
+    },
+    "superproperty" : [ "65" ],
+    "domain" : "6",
+    "comment" : {
+      "undefined" : "Relates SupplementaryConceptRecords to Descriptors or DescriptorQualifierPairs. Designates a Descriptor or DescriptorQualifierPair that is a main parent (includes an asterisk designation in the Source XML) for the SupplementaryConceptRecord and that is automatically added to the journal citation for which the SupplementaryConceptRecord is indexed. meshv:preferredMappedTo is a subproperty of meshv:mappedTo."
+    },
+    "attributes" : [ "object" ],
+    "id" : "64"
+  }, {
+    "iri" : "http://id.nlm.nih.gov/mesh/vocab#useInstead",
+    "baseIri" : "http://id.nlm.nih.gov/mesh/vocab",
+    "range" : "6",
+    "description" : {
+      "undefined" : "Relates DisallowedDescriptorQualifierPairs to Descriptors or AllowedDescriptorQualifierPairs. Descriptor or DescriptorQualifierPair recommended in place of the prohibited combination."
+    },
+    "label" : {
+      "IRI-based" : "useInstead",
+      "undefined" : "useInstead"
+    },
+    "domain" : "6",
+    "comment" : {
+      "undefined" : "Relates DisallowedDescriptorQualifierPairs to Descriptors or AllowedDescriptorQualifierPairs. Descriptor or DescriptorQualifierPair recommended in place of the prohibited combination."
+    },
+    "attributes" : [ "object" ],
+    "id" : "66"
+  }, {
+    "iri" : "http://id.nlm.nih.gov/mesh/vocab#entryVersion",
+    "baseIri" : "http://id.nlm.nih.gov/mesh/vocab",
+    "range" : "68",
+    "description" : {
+      "undefined" : "A property of Terms. Used for internal NLM processing only."
+    },
+    "label" : {
+      "IRI-based" : "entryVersion",
+      "undefined" : "entryVersion"
+    },
+    "domain" : "6",
+    "comment" : {
+      "undefined" : "A property of Terms. Used for internal NLM processing only."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "67"
+  }, {
+    "iri" : "http://id.nlm.nih.gov/mesh/vocab#onlineNote",
+    "baseIri" : "http://id.nlm.nih.gov/mesh/vocab",
+    "range" : "70",
+    "description" : {
+      "undefined" : "A property of Descriptors and Qualifiers. Free-text information intended to direct the MeSH online searcher to alternate search terms. Superseded by a more detailed historyNote when onlineNote is not present."
+    },
+    "label" : {
+      "IRI-based" : "onlineNote",
+      "undefined" : "onlineNote"
+    },
+    "domain" : "6",
+    "comment" : {
+      "undefined" : "A property of Descriptors and Qualifiers. Free-text information intended to direct the MeSH online searcher to alternate search terms. Superseded by a more detailed historyNote when onlineNote is not present."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "69"
+  }, {
+    "iri" : "http://id.nlm.nih.gov/mesh/vocab#dateCreated",
+    "baseIri" : "http://id.nlm.nih.gov/mesh/vocab",
+    "range" : "76",
+    "description" : {
+      "undefined" : "A property of Descriptors, Qualifiers, SupplementaryConceptRecords or Terms. Date in YYYY-MM-DD format when a Descriptor, Qualifer, SupplementaryConceptRecord or Term was first added to MeSH provisionally. This timestamp may be a year behind the dateEstablished. Upon conversion to a new MeSH maintenance system in 1999, a default value of 1999-01-01 was supplied."
+    },
+    "label" : {
+      "IRI-based" : "dateCreated",
+      "undefined" : "dateCreated"
+    },
+    "domain" : "6",
+    "comment" : {
+      "undefined" : "A property of Descriptors, Qualifiers, SupplementaryConceptRecords or Terms. Date in YYYY-MM-DD format when a Descriptor, Qualifer, SupplementaryConceptRecord or Term was first added to MeSH provisionally. This timestamp may be a year behind the dateEstablished. Upon conversion to a new MeSH maintenance system in 1999, a default value of 1999-01-01 was supplied."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "75"
+  }, {
+    "iri" : "http://id.nlm.nih.gov/mesh/vocab#indexerConsiderAlso",
+    "baseIri" : "http://id.nlm.nih.gov/mesh/vocab",
+    "range" : "6",
+    "description" : {
+      "undefined" : "Relates SupplementaryConceptRecords to Descriptors or DescriptorQualifierPairs. A Descriptor or DescriptorQualifierPair that is usually broader than the SupplementaryConceptRecord, and which is suggested as an indexing guideline for addition to the citation if pertinent to the article being indexed."
+    },
+    "label" : {
+      "IRI-based" : "indexerConsiderAlso",
+      "undefined" : "indexerConsiderAlso"
+    },
+    "domain" : "6",
+    "comment" : {
+      "undefined" : "Relates SupplementaryConceptRecords to Descriptors or DescriptorQualifierPairs. A Descriptor or DescriptorQualifierPair that is usually broader than the SupplementaryConceptRecord, and which is suggested as an indexing guideline for addition to the citation if pertinent to the article being indexed."
+    },
+    "attributes" : [ "object" ],
+    "id" : "77"
+  }, {
+    "iri" : "http://id.nlm.nih.gov/mesh/vocab#lastActiveYear",
+    "baseIri" : "http://id.nlm.nih.gov/mesh/vocab",
+    "range" : "79",
+    "description" : {
+      "undefined" : "A property of all classes. Indicates the most recent year in which inactive MeSH content was active."
+    },
+    "label" : {
+      "IRI-based" : "lastActiveYear",
+      "undefined" : "lastActiveYear"
+    },
+    "domain" : "6",
+    "comment" : {
+      "undefined" : "A property of all classes. Indicates the most recent year in which inactive MeSH content was active."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "78"
+  }, {
+    "iri" : "http://id.nlm.nih.gov/mesh/vocab#scopeNote",
+    "baseIri" : "http://id.nlm.nih.gov/mesh/vocab",
+    "range" : "81",
+    "description" : {
+      "undefined" : "A property of Concepts. Free-text narrative giving the scope and meaning (definition) of a Concept."
+    },
+    "label" : {
+      "IRI-based" : "scopeNote",
+      "undefined" : "scopeNote"
+    },
+    "domain" : "6",
+    "comment" : {
+      "undefined" : "A property of Concepts. Free-text narrative giving the scope and meaning (definition) of a Concept."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "80"
+  }, {
+    "range" : "42",
+    "domain" : "41",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "84"
+  }, {
+    "range" : "10",
+    "domain" : "41",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "85"
+  }, {
+    "range" : "42",
+    "domain" : "10",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "87"
+  }, {
+    "iri" : "http://id.nlm.nih.gov/mesh/vocab#mappedTo",
+    "baseIri" : "http://id.nlm.nih.gov/mesh/vocab",
+    "range" : "6",
+    "description" : {
+      "undefined" : "Relates SupplementaryConceptRecords to Descriptors or DescriptorQualifierPairs. A Descriptor or DescriptorQualifierPair that is a parent (not the main parent; lacks an asterisk designation in the Source XML) for the SupplementaryConceptRecord and that is automatically added to the journal citation for which the SupplementaryConceptRecord is indexed. See also meshv:preferredMappedTo."
+    },
+    "label" : {
+      "IRI-based" : "mappedTo",
+      "undefined" : "mappedTo"
+    },
+    "domain" : "6",
+    "subproperty" : [ "64" ],
+    "comment" : {
+      "undefined" : "Relates SupplementaryConceptRecords to Descriptors or DescriptorQualifierPairs. A Descriptor or DescriptorQualifierPair that is a parent (not the main parent; lacks an asterisk designation in the Source XML) for the SupplementaryConceptRecord and that is automatically added to the journal citation for which the SupplementaryConceptRecord is indexed. See also meshv:preferredMappedTo."
+    },
+    "attributes" : [ "object" ],
+    "id" : "65"
+  }, {
+    "range" : "52",
+    "domain" : "24",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "88"
+  }, {
+    "range" : "55",
+    "domain" : "20",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "89"
+  }, {
+    "range" : "52",
+    "domain" : "31",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "90"
+  }, {
+    "range" : "52",
+    "domain" : "27",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "91"
+  }, {
+    "iri" : "http://id.nlm.nih.gov/mesh/vocab#parentTreeNumber",
+    "baseIri" : "http://id.nlm.nih.gov/mesh/vocab",
+    "range" : "4",
+    "description" : {
+      "undefined" : "Relates one TreeNumber to another. Immediate “parent” TreeNumber, meaning one level higher in the TreeNumber hierarchy. Example: D03.438.221 is a parent of D03.438.221.173."
+    },
+    "label" : {
+      "IRI-based" : "parentTreeNumber",
+      "undefined" : "parentTreeNumber"
+    },
+    "domain" : "4",
+    "comment" : {
+      "undefined" : "Relates one TreeNumber to another. Immediate “parent” TreeNumber, meaning one level higher in the TreeNumber hierarchy. Example: D03.438.221 is a parent of D03.438.221.173."
+    },
+    "attributes" : [ "object", "transitive" ],
+    "id" : "92"
+  }, {
+    "iri" : "http://id.nlm.nih.gov/mesh/vocab#dateEstablished",
+    "baseIri" : "http://id.nlm.nih.gov/mesh/vocab",
+    "range" : "83",
+    "description" : {
+      "undefined" : "A property of Descriptors or Qualifiers. Date in YYYY-MM-DD format when the Descriptor or Qualifier became effective for use; set to YYYY-01-01 where YYYY = year of introduction to MeSH."
+    },
+    "label" : {
+      "IRI-based" : "dateEstablished",
+      "undefined" : "dateEstablished"
+    },
+    "domain" : "6",
+    "comment" : {
+      "undefined" : "A property of Descriptors or Qualifiers. Date in YYYY-MM-DD format when the Descriptor or Qualifier became effective for use; set to YYYY-01-01 where YYYY = year of introduction to MeSH."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "93"
+  }, {
+    "range" : "55",
+    "domain" : "21",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "94"
+  }, {
+    "iri" : "http://id.nlm.nih.gov/mesh/vocab#frequency",
+    "baseIri" : "http://id.nlm.nih.gov/mesh/vocab",
+    "range" : "74",
+    "description" : {
+      "undefined" : "A property of SupplementaryConceptRecords. Number of citations indexed with a SupplementaryConceptRecord in MEDLINE/PubMed. Automatically updated monthly in the XML. See also meshv:source definition."
+    },
+    "label" : {
+      "IRI-based" : "frequency",
+      "undefined" : "frequency"
+    },
+    "domain" : "6",
+    "comment" : {
+      "undefined" : "A property of SupplementaryConceptRecords. Number of citations indexed with a SupplementaryConceptRecord in MEDLINE/PubMed. Automatically updated monthly in the XML. See also meshv:source definition."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "95"
+  }, {
+    "iri" : "http://id.nlm.nih.gov/mesh/vocab#relatedConcept",
+    "baseIri" : "http://id.nlm.nih.gov/mesh/vocab",
+    "range" : "9",
+    "description" : {
+      "undefined" : "Relates one Concept to another. A semantic relationship between two Concepts, usually between the preferred Concept and subordinate Concept(s) where one is neither broader nor narrower in meaning. Example: M0000562 is related to M0000561"
+    },
+    "label" : {
+      "IRI-based" : "relatedConcept",
+      "undefined" : "relatedConcept"
+    },
+    "domain" : "9",
+    "comment" : {
+      "undefined" : "Relates one Concept to another. A semantic relationship between two Concepts, usually between the preferred Concept and subordinate Concept(s) where one is neither broader nor narrower in meaning. Example: M0000562 is related to M0000561"
+    },
+    "attributes" : [ "object" ],
+    "id" : "96"
+  }, {
+    "iri" : "http://id.nlm.nih.gov/mesh/vocab#source",
+    "baseIri" : "http://id.nlm.nih.gov/mesh/vocab",
+    "range" : "73",
+    "description" : {
+      "undefined" : "A property of SupplementaryConceptRecords. Citation reference string in which the SupplementaryConceptRecord was first found. Single occurrence if SupplementaryConceptRecord created since 1980; frequency reports total citations indexed with the term in MEDLINE/PubMed. Possible multiple occurrences if SupplementaryConceptRecord created prior to 1980; term not found on those citations in MEDLINE/PubMed. Number of multiple Source occurrences need to be added to Frequency count for grand total of citations to articles discussing the SCR."
+    },
+    "label" : {
+      "IRI-based" : "source",
+      "undefined" : "source"
+    },
+    "domain" : "6",
+    "comment" : {
+      "undefined" : "A property of SupplementaryConceptRecords. Citation reference string in which the SupplementaryConceptRecord was first found. Single occurrence if SupplementaryConceptRecord created since 1980; frequency reports total citations indexed with the term in MEDLINE/PubMed. Possible multiple occurrences if SupplementaryConceptRecord created prior to 1980; term not found on those citations in MEDLINE/PubMed. Number of multiple Source occurrences need to be added to Frequency count for grand total of citations to articles discussing the SCR."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "97"
+  }, {
+    "iri" : "http://id.nlm.nih.gov/mesh/vocab#nlmClassificationNumber",
+    "baseIri" : "http://id.nlm.nih.gov/mesh/vocab",
+    "range" : "82",
+    "description" : {
+      "undefined" : "A property of Descriptors. Most MeSH Descriptors have a corresponding NLM Classification (the system for the organization of literature). Descriptors that lack an NLM Classification Number include those that point to more than one number, those in the Z Tree (Geographicals), and many of those in the V Tree (Publication Characteristics). This NLM classification is similar to the Library of Congress Classification (LCC)."
+    },
+    "label" : {
+      "IRI-based" : "nlmClassificationNumber",
+      "undefined" : "nlmClassificationNumber"
+    },
+    "domain" : "6",
+    "comment" : {
+      "undefined" : "A property of Descriptors. Most MeSH Descriptors have a corresponding NLM Classification (the system for the organization of literature). Descriptors that lack an NLM Classification Number include those that point to more than one number, those in the Z Tree (Geographicals), and many of those in the V Tree (Publication Characteristics). This NLM classification is similar to the Library of Congress Classification (LCC)."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "98"
+  }, {
+    "range" : "11",
+    "domain" : "10",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "99"
+  }, {
+    "range" : "11",
+    "domain" : "42",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "100"
+  }, {
+    "iri" : "http://id.nlm.nih.gov/mesh/vocab#previousIndexing",
+    "baseIri" : "http://id.nlm.nih.gov/mesh/vocab",
+    "range" : "71",
+    "description" : {
+      "undefined" : "A property of Descriptors and Supplementary Concept Records. Free-text information referring to Descriptors or DescriptorQualifierPairs that were used to index the concept in MEDLINE before the Descriptor was created. Intended to enable users of new Descriptors to find similar concepts indexed before the Descriptor was created. Includes a date or date range. May include descriptive text referring to a group of Descriptors as “specifics”. Data are not maintained when a Descriptor or Qualifier name changes. DUI D005290 example: Iron (1966-1974). Also used for SupplementaryConceptRecords to refer to the Descriptor or DescriptorQualifierPair to which the SupplementaryConceptRecord was previously mapped."
+    },
+    "label" : {
+      "IRI-based" : "previousIndexing",
+      "undefined" : "previousIndexing"
+    },
+    "domain" : "6",
+    "comment" : {
+      "undefined" : "A property of Descriptors and Supplementary Concept Records. Free-text information referring to Descriptors or DescriptorQualifierPairs that were used to index the concept in MEDLINE before the Descriptor was created. Intended to enable users of new Descriptors to find similar concepts indexed before the Descriptor was created. Includes a date or date range. May include descriptive text referring to a group of Descriptors as “specifics”. Data are not maintained when a Descriptor or Qualifier name changes. DUI D005290 example: Iron (1966-1974). Also used for SupplementaryConceptRecords to refer to the Descriptor or DescriptorQualifierPair to which the SupplementaryConceptRecord was previously mapped."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "103"
+  }, {
+    "range" : "11",
+    "domain" : "41",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "104"
+  }, {
+    "range" : "11",
+    "domain" : "12",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "105"
+  }, {
+    "iri" : "http://id.nlm.nih.gov/mesh/vocab#treeNumber",
+    "baseIri" : "http://id.nlm.nih.gov/mesh/vocab",
+    "range" : "4",
+    "description" : {
+      "undefined" : "Relates Descriptors or Qualifiers to TreeNumbers. Alpha-numeric string referring to location within a Descriptor or Qualifier hierarchy. Used for browsing the MeSH vocabulary and for inclusive searches by retrieval systems using MeSH. (Note that the Trees hierarchy is not represented using subelements. The hierarchy is represented by the TreeNumber itself.) Up to thirteen hierarchical levels."
+    },
+    "label" : {
+      "IRI-based" : "treeNumber",
+      "undefined" : "treeNumber"
+    },
+    "domain" : "72",
+    "comment" : {
+      "undefined" : "Relates Descriptors or Qualifiers to TreeNumbers. Alpha-numeric string referring to location within a Descriptor or Qualifier hierarchy. Used for browsing the MeSH vocabulary and for inclusive searches by retrieval systems using MeSH. (Note that the Trees hierarchy is not represented using subelements. The hierarchy is represented by the TreeNumber itself.) Up to thirteen hierarchical levels."
+    },
+    "attributes" : [ "object" ],
+    "id" : "108"
+  }, {
+    "iri" : "http://id.nlm.nih.gov/mesh/vocab#historyNote",
+    "baseIri" : "http://id.nlm.nih.gov/mesh/vocab",
+    "range" : "61",
+    "description" : {
+      "undefined" : "A property of Descriptors or Qualifiers. Free-text information that traces the concept in MeSH and is deemed helpful for the online searcher. Headings and entry terms are entered in upper case. Initial characters refer to the year in which the Descriptor or Qualifier was created in MeSH in its current form (i.e., with the same preferred term). A date in parentheses indicates the oldest creation date of terms, provisional headings (before 1975), or minor headings (before 1991), which are reflected in bibliographic citations. Entries without a year date were created between 1963 and 1966."
+    },
+    "label" : {
+      "IRI-based" : "historyNote",
+      "undefined" : "historyNote"
+    },
+    "domain" : "6",
+    "comment" : {
+      "undefined" : "A property of Descriptors or Qualifiers. Free-text information that traces the concept in MeSH and is deemed helpful for the online searcher. Headings and entry terms are entered in upper case. Initial characters refer to the year in which the Descriptor or Qualifier was created in MeSH in its current form (i.e., with the same preferred term). A date in parentheses indicates the oldest creation date of terms, provisional headings (before 1975), or minor headings (before 1991), which are reflected in bibliographic citations. Entries without a year date were created between 1963 and 1966."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "109"
+  }, {
+    "iri" : "http://id.nlm.nih.gov/mesh/vocab#hasQualifier",
+    "baseIri" : "http://id.nlm.nih.gov/mesh/vocab",
+    "range" : "1",
+    "description" : {
+      "undefined" : "Relates DescriptorQualifierPairs to Qualifiers."
+    },
+    "label" : {
+      "IRI-based" : "hasQualifier",
+      "undefined" : "hasQualifier"
+    },
+    "domain" : "44",
+    "comment" : {
+      "undefined" : "Relates DescriptorQualifierPairs to Qualifiers."
+    },
+    "attributes" : [ "object" ],
+    "id" : "111"
+  }, {
+    "iri" : "http://id.nlm.nih.gov/mesh/vocab#thesaurusID",
+    "baseIri" : "http://id.nlm.nih.gov/mesh/vocab",
+    "range" : "114",
+    "description" : {
+      "undefined" : "A property of Terms. Name of a Thesaurus in which the term occurs. The value 'NLM' is equivalent to MeSH."
+    },
+    "label" : {
+      "IRI-based" : "thesaurusID",
+      "undefined" : "thesaurusID"
+    },
+    "domain" : "6",
+    "comment" : {
+      "undefined" : "A property of Terms. Name of a Thesaurus in which the term occurs. The value 'NLM' is equivalent to MeSH."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "113"
+  }, {
+    "iri" : "http://id.nlm.nih.gov/mesh/vocab#concept",
+    "baseIri" : "http://id.nlm.nih.gov/mesh/vocab",
+    "range" : "6",
+    "description" : {
+      "undefined" : "Relates Descriptors, Qualifiers or SupplementaryConceptRecords to Concepts. Designates a member of a collection of Concepts for a Descriptor, Qualifier or SCR."
+    },
+    "label" : {
+      "IRI-based" : "concept",
+      "undefined" : "concept"
+    },
+    "domain" : "6",
+    "subproperty" : [ "118" ],
+    "comment" : {
+      "undefined" : "Relates Descriptors, Qualifiers or SupplementaryConceptRecords to Concepts. Designates a member of a collection of Concepts for a Descriptor, Qualifier or SCR."
+    },
+    "attributes" : [ "object" ],
+    "id" : "117"
+  }, {
+    "range" : "10",
+    "domain" : "12",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "119"
+  }, {
+    "iri" : "http://id.nlm.nih.gov/mesh/vocab#narrowerConcept",
+    "baseIri" : "http://id.nlm.nih.gov/mesh/vocab",
+    "range" : "9",
+    "description" : {
+      "undefined" : "Relates one Concept to another. A semantic relationship between the preferred concept and subordinate concept(s) where one is narrower in meaning. Example: M0353609 is narrower with respect to M0000001."
+    },
+    "label" : {
+      "IRI-based" : "narrowerConcept",
+      "undefined" : "narrowerConcept"
+    },
+    "domain" : "9",
+    "comment" : {
+      "undefined" : "Relates one Concept to another. A semantic relationship between the preferred concept and subordinate concept(s) where one is narrower in meaning. Example: M0353609 is narrower with respect to M0000001."
+    },
+    "attributes" : [ "object" ],
+    "id" : "120"
+  }, {
+    "range" : "52",
+    "domain" : "11",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "121"
+  }, {
+    "iri" : "http://id.nlm.nih.gov/mesh/vocab#relatedRegistryNumber",
+    "baseIri" : "http://id.nlm.nih.gov/mesh/vocab",
+    "range" : "112",
+    "description" : {
+      "undefined" : "A property of Concepts. An additional unique identifier for chemicals, which is sometimes followed by a label in parentheses. Multiple Related Registry Numbers are allowed for each Concept. For example, these might be salts and/or stereoisomers of the parent compound. Used for Concepts related to Descriptors in the D Category Drugs and Chemicals and for SupplementaryConceptRecords."
+    },
+    "label" : {
+      "IRI-based" : "relatedRegistryNumber",
+      "undefined" : "relatedRegistryNumber"
+    },
+    "domain" : "6",
+    "comment" : {
+      "undefined" : "A property of Concepts. An additional unique identifier for chemicals, which is sometimes followed by a label in parentheses. Multiple Related Registry Numbers are allowed for each Concept. For example, these might be salts and/or stereoisomers of the parent compound. Used for Concepts related to Descriptors in the D Category Drugs and Chemicals and for SupplementaryConceptRecords."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "122"
+  }, {
+    "range" : "55",
+    "domain" : "52",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "123"
+  }, {
+    "range" : "4",
+    "domain" : "52",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "124"
+  }, {
+    "range" : "9",
+    "domain" : "52",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "125"
+  }, {
+    "range" : "16",
+    "domain" : "52",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "126"
+  }, {
+    "range" : "52",
+    "domain" : "1",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "127"
+  }, {
+    "iri" : "http://id.nlm.nih.gov/mesh/vocab#hasDescriptor",
+    "baseIri" : "http://id.nlm.nih.gov/mesh/vocab",
+    "range" : "11",
+    "description" : {
+      "undefined" : "Relates DescriptorQualifierPairs to Descriptors."
+    },
+    "label" : {
+      "IRI-based" : "hasDescriptor",
+      "undefined" : "hasDescriptor"
+    },
+    "domain" : "115",
+    "comment" : {
+      "undefined" : "Relates DescriptorQualifierPairs to Descriptors."
+    },
+    "attributes" : [ "object" ],
+    "id" : "128"
+  }, {
+    "iri" : "http://id.nlm.nih.gov/mesh/vocab#note",
+    "baseIri" : "http://id.nlm.nih.gov/mesh/vocab",
+    "range" : "116",
+    "description" : {
+      "undefined" : "A property of SupplementaryConceptRecords. Free-text narrative giving information about the SupplementaryConceptRecord, and may include information such as the registryNumber."
+    },
+    "label" : {
+      "IRI-based" : "note",
+      "undefined" : "note"
+    },
+    "domain" : "6",
+    "comment" : {
+      "undefined" : "A property of SupplementaryConceptRecords. Free-text narrative giving information about the SupplementaryConceptRecord, and may include information such as the registryNumber."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "129"
+  }, {
+    "range" : "4",
+    "domain" : "55",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "130"
+  }, {
+    "iri" : "http://id.nlm.nih.gov/mesh/vocab#abbreviation",
+    "baseIri" : "http://id.nlm.nih.gov/mesh/vocab",
+    "range" : "110",
+    "description" : {
+      "undefined" : "A property of Terms. Two-letter, uppercase abbreviation for a Qualifier term."
+    },
+    "label" : {
+      "IRI-based" : "abbreviation",
+      "undefined" : "abbreviation"
+    },
+    "domain" : "6",
+    "comment" : {
+      "undefined" : "A property of Terms. Two-letter, uppercase abbreviation for a Qualifier term."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "131"
+  }, {
+    "range" : "42",
+    "domain" : "12",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "132"
+  }, {
+    "iri" : "http://id.nlm.nih.gov/mesh/vocab#seeAlso",
+    "baseIri" : "http://id.nlm.nih.gov/mesh/vocab",
+    "range" : "6",
+    "description" : {
+      "undefined" : "Relates one Descriptor to another. Reference to a specific Descriptor to which a user is referred by a 'see related' cross-reference."
+    },
+    "label" : {
+      "IRI-based" : "seeAlso",
+      "undefined" : "seeAlso"
+    },
+    "domain" : "6",
+    "comment" : {
+      "undefined" : "Relates one Descriptor to another. Reference to a specific Descriptor to which a user is referred by a 'see related' cross-reference."
+    },
+    "attributes" : [ "object" ],
+    "id" : "133"
+  }, {
+    "range" : "41",
+    "domain" : "12",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "134"
+  }, {
+    "iri" : "http://id.nlm.nih.gov/mesh/vocab#identifier",
+    "baseIri" : "http://id.nlm.nih.gov/mesh/vocab",
+    "range" : "107",
+    "description" : {
+      "undefined" : "A property of Descriptors, Qualifiers, SupplementaryConceptRecords, Concepts and Terms. Descriptor identifier is a 7 or 10 alphanumeric starting with the letter D. Qualifier identifier is a 7 or 10 alphanumeric starting with the letter Q. SupplementaryConceptRecord identifier is a 7 or 10 alphanumeric starting with the letter C. Concept identifier is an 8 or 10 alphanumeric starting with the letter M. Term identifier is a 7 or 10 alphanumeric starting with the letter T. The 10 alphanumeric format was implemented for new identifiers created on or after about May 19, 2014."
+    },
+    "label" : {
+      "IRI-based" : "identifier",
+      "undefined" : "identifier"
+    },
+    "domain" : "6",
+    "comment" : {
+      "undefined" : "A property of Descriptors, Qualifiers, SupplementaryConceptRecords, Concepts and Terms. Descriptor identifier is a 7 or 10 alphanumeric starting with the letter D. Qualifier identifier is a 7 or 10 alphanumeric starting with the letter Q. SupplementaryConceptRecord identifier is a 7 or 10 alphanumeric starting with the letter C. Concept identifier is an 8 or 10 alphanumeric starting with the letter M. Term identifier is a 7 or 10 alphanumeric starting with the letter T. The 10 alphanumeric format was implemented for new identifiers created on or after about May 19, 2014."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "135"
+  }, {
+    "iri" : "http://id.nlm.nih.gov/mesh/vocab#registryNumber",
+    "baseIri" : "http://id.nlm.nih.gov/mesh/vocab",
+    "range" : "106",
+    "description" : {
+      "undefined" : "A property of Concepts. A unique identifier from one of these sources: Enzyme Commission (Example: EC 2.4.2.17; Example for Partial enzyme number: EC 1.4.3.-); Chemical Abstracts Service (CAS) (Example: 7004-12-8); FDA Substance Registration System Unique Identifier (UNII) in 10-character format (Example: R16CO5Y76E); or the value of 0 if no match is available from the previous sources. A single MeSH Concept can only have one Registry Number. Used for Concepts related to Descriptors in the D Category Drugs and Chemicals and for SupplementaryConceptRecords."
+    },
+    "label" : {
+      "IRI-based" : "registryNumber",
+      "undefined" : "registryNumber"
+    },
+    "domain" : "6",
+    "comment" : {
+      "undefined" : "A property of Concepts. A unique identifier from one of these sources: Enzyme Commission (Example: EC 2.4.2.17; Example for Partial enzyme number: EC 1.4.3.-); Chemical Abstracts Service (CAS) (Example: 7004-12-8); FDA Substance Registration System Unique Identifier (UNII) in 10-character format (Example: R16CO5Y76E); or the value of 0 if no match is available from the previous sources. A single MeSH Concept can only have one Registry Number. Used for Concepts related to Descriptors in the D Category Drugs and Chemicals and for SupplementaryConceptRecords."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "136"
+  }, {
+    "iri" : "http://id.nlm.nih.gov/mesh/vocab#active",
+    "baseIri" : "http://id.nlm.nih.gov/mesh/vocab",
+    "range" : "86",
+    "description" : {
+      "undefined" : "A property of all classes. A Boolean-typed property that indicates whether MeSH content is active in the current MeSH year."
+    },
+    "label" : {
+      "IRI-based" : "active",
+      "undefined" : "active"
+    },
+    "domain" : "6",
+    "comment" : {
+      "undefined" : "A property of all classes. A Boolean-typed property that indicates whether MeSH content is active in the current MeSH year."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "137"
+  }, {
+    "iri" : "http://id.nlm.nih.gov/mesh/vocab#pharmacologicalAction",
+    "baseIri" : "http://id.nlm.nih.gov/mesh/vocab",
+    "range" : "6",
+    "description" : {
+      "undefined" : "Relates Descriptors or SupplementaryConceptRecords to Descriptors. Reference to a Descriptor describing observed biological activity of an exogenously administered chemical represented by a Descriptor or SupplementaryConceptRecord."
+    },
+    "label" : {
+      "IRI-based" : "pharmacologicalAction",
+      "undefined" : "pharmacologicalAction"
+    },
+    "domain" : "6",
+    "comment" : {
+      "undefined" : "Relates Descriptors or SupplementaryConceptRecords to Descriptors. Reference to a Descriptor describing observed biological activity of an exogenously administered chemical represented by a Descriptor or SupplementaryConceptRecord."
+    },
+    "attributes" : [ "object" ],
+    "id" : "138"
+  }, {
+    "iri" : "http://id.nlm.nih.gov/mesh/vocab#preferredTerm",
+    "baseIri" : "http://id.nlm.nih.gov/mesh/vocab",
+    "range" : "16",
+    "description" : {
+      "undefined" : "Relates Concepts, Descriptors, Qualifiers or SupplementaryConceptRecords to Terms. Indicates that the Term is the preferred term for a Concept, Descriptor, Qualifier, or SupplementaryConceptRecord."
+    },
+    "label" : {
+      "IRI-based" : "preferredTerm",
+      "undefined" : "preferredTerm"
+    },
+    "superproperty" : [ "62" ],
+    "domain" : "9",
+    "comment" : {
+      "undefined" : "Relates Concepts, Descriptors, Qualifiers or SupplementaryConceptRecords to Terms. Indicates that the Term is the preferred term for a Concept, Descriptor, Qualifier, or SupplementaryConceptRecord."
+    },
+    "attributes" : [ "object" ],
+    "id" : "63"
+  }, {
+    "iri" : "http://id.nlm.nih.gov/mesh/vocab#preferredConcept",
+    "baseIri" : "http://id.nlm.nih.gov/mesh/vocab",
+    "range" : "6",
+    "description" : {
+      "undefined" : "Relates Descriptors or Supplementary Concept Records to Concepts. The preferred concept is frequently a broader concept that includes narrower sub-concepts, but may also be one among several distinct concepts. The preferred concept is selected as the primary or most prominent representation among the concepts in the literature. meshv:preferredConcept is a subproperty of meshv:concept."
+    },
+    "label" : {
+      "IRI-based" : "preferredConcept",
+      "undefined" : "preferredConcept"
+    },
+    "superproperty" : [ "117" ],
+    "domain" : "6",
+    "comment" : {
+      "undefined" : "Relates Descriptors or Supplementary Concept Records to Concepts. The preferred concept is frequently a broader concept that includes narrower sub-concepts, but may also be one among several distinct concepts. The preferred concept is selected as the primary or most prominent representation among the concepts in the literature. meshv:preferredConcept is a subproperty of meshv:concept."
+    },
+    "attributes" : [ "object" ],
+    "id" : "118"
+  }, {
+    "iri" : "http://id.nlm.nih.gov/mesh/vocab#considerAlso",
+    "baseIri" : "http://id.nlm.nih.gov/mesh/vocab",
+    "range" : "102",
+    "description" : {
+      "undefined" : "A property of Descriptors. Free-text information that refers a user from a Descriptor to other terms which have related roots."
+    },
+    "label" : {
+      "IRI-based" : "considerAlso",
+      "undefined" : "considerAlso"
+    },
+    "domain" : "6",
+    "comment" : {
+      "undefined" : "A property of Descriptors. Free-text information that refers a user from a Descriptor to other terms which have related roots."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "139"
+  }, {
+    "iri" : "http://id.nlm.nih.gov/mesh/vocab#publicMeSHNote",
+    "baseIri" : "http://id.nlm.nih.gov/mesh/vocab",
+    "range" : "101",
+    "description" : {
+      "undefined" : "A property of Descriptors. Free-text information about the history of changes to the Descriptor that may be helpful to the user of the printed Index Medicus publication (ceased in 2005). This includes the date the Descriptor was created in MeSH, changes in the preferred term, earlier status as an SupplementaryConceptRecord, etc. Unlike the History Note, this note reflects the MeSH vocabulary printed at that point in time, not as updated for online databases. Applies only to TopicalDescriptors. MeSH Descriptor labels are in upper case."
+    },
+    "label" : {
+      "IRI-based" : "publicMeSHNote",
+      "undefined" : "publicMeSHNote"
+    },
+    "domain" : "6",
+    "comment" : {
+      "undefined" : "A property of Descriptors. Free-text information about the history of changes to the Descriptor that may be helpful to the user of the printed Index Medicus publication (ceased in 2005). This includes the date the Descriptor was created in MeSH, changes in the preferred term, earlier status as an SupplementaryConceptRecord, etc. Unlike the History Note, this note reflects the MeSH vocabulary printed at that point in time, not as updated for online databases. Applies only to TopicalDescriptors. MeSH Descriptor labels are in upper case."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "140"
+  }, {
+    "range" : "52",
+    "domain" : "25",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "141"
+  } ]
+}
