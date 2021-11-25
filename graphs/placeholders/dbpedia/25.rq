@@ -1,0 +1,9 @@
+SELECT ?v0 ?v1 ?v2 ?v3
+WHERE
+{
+    ?v6 rdf:type %% v %% .
+    ?v6 dbp-prop:name ?v0 .
+    ?v6 dbp-prop:pages ?v1 .
+    ?v6 dbp-prop:isbn ?v2 .
+    ?v6 dbp-prop:author ?v3 .
+}

@@ -1,0 +1,14 @@
+SELECT ?v5 ?v6 ?v9 ?v8 ?v4
+WHERE
+{
+    { 
+        %% v %% ?v5 ?v6 .
+        ?v6 foaf:name ?v8 .
+    } 
+    UNION 
+    { 
+    ?v9 ?v5 %% v %% ; 
+        foaf:name
+        ?v4 .
+    } 
+}

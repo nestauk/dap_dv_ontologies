@@ -1,0 +1,6 @@
+SELECT ?v2
+WHERE
+{
+    ?v3 foaf:homepage ?v2 .
+    ?v3 rdf:type %% v %% .
+}

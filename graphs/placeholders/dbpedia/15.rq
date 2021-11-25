@@ -1,0 +1,16 @@
+SELECT ?v6 ?v8 ?v10 ?v4
+WHERE
+{
+    ?v4 skos:subject %% v %% .
+    ?v4 foaf:name ?v6 .
+    OPTIONAL 
+    { 
+        ?v4 rdfs:comment ?v8 .
+        FILTER (LANG (?v8) = 'en') .
+    } 
+    OPTIONAL 
+    {   
+        ?v4 rdfs:comment ?v10 .
+        FILTER (LANG (?v10) = 'de') .
+    } 
+}

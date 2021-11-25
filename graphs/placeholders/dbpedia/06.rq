@@ -1,0 +1,8 @@
+SELECT DISTINCT ?v3 ?v5 ?v7
+WHERE
+{
+    ?v3 rdf:type dbp -yago:Company108058098 .
+    ?v3 dbp-prop:numEmployees ?v5 .
+    FILTER (xsd:integer (?v5) >= %% v %%) .
+    ?v3 foaf:homepage ?v7 .
+}

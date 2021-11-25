@@ -1,0 +1,8 @@
+SELECT *
+WHERE
+{
+    ?v1 a dbp-owl:Organisation .
+    ?v2 dbp-owl:foundationPlace %% v0 %% .
+    ?v4 dbp-owl:developer ?v2 .
+    ?v4 a %% v1 %% .
+}

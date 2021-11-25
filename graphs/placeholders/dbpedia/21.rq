@@ -1,0 +1,5 @@
+SELECT *
+WHERE
+{
+    %% v %% dbp-prop:redirect ?v0 .
+}

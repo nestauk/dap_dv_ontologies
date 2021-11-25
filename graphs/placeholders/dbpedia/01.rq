@@ -1,0 +1,5 @@
+SELECT DISTINCT ?v1
+WHERE
+{
+    %% v %% rdf:type ?v1 .
+}
