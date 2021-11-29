@@ -1,0 +1,18 @@
+# 6: Example with a polygon: Bakeries in (roughly) Germany
+
+Prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix ogc: <http://www.opengis.net/ont/geosparql#>
+Prefix geom: <http://geovocab.org/geometry#>
+Prefix lgdo: <http://linkedgeodata.org/ontology/>
+
+Select *
+From <http://linkedgeodata.org> {
+  ?s
+    a lgdo:Bakery ;
+    rdfs:label ?l ;    
+    geom:geometry [
+      ogc:asWKT ?g
+    ] .
+
+    Filter(bif:st_intersects (?g, bif:st_geomFromText("POLYGON((6.11553983198 54.438016608357, 6.95050076948 47.230985358357, 13.36651639448 47.626493170857, 14.99249295698 54.701688483357, 6.11553983198 54.438016608357))"))) .
+} Limit 10

@@ -1,0 +1,16 @@
+# 5: Get relations with postal codes and region polygon
+
+PREFIX meta: <http://linkedgeodata.org/meta/>
+PREFIX lgdo: <http://linkedgeodata.org/ontology/>
+PREFIX geom: <http://geovocab.org/geometry#>
+PREFIX ogc: <http://www.opengis.net/ont/geosparql#>
+SELECT * {
+  ?s
+    a meta:Relation ;
+    lgdo:postalCode ?pc ;
+    geom:geometry [
+      ogc:asWKT ?w
+    ]
+ 
+}
+LIMIT 10

@@ -1,0 +1,20 @@
+#4: Bakeries in Leipzig
+
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX ogc: <http://www.opengis.net/ont/geosparql#>
+PREFIX geom: <http://geovocab.org/geometry#>
+PREFIX lgdo: <http://linkedgeodata.org/ontology/>
+PREFIX bif: <http://www.openlinksw.com/schemas/bif#>
+
+SELECT ?s ?sg WHERE {
+  ?s
+    a lgdo:Bakery ;
+    geom:geometry [ ogc:asWKT ?sg ] .
+
+  ?a
+    owl:sameAs <http://dbpedia.org/resource/Leipzig> ;
+    geom:geometry [ ogc:asWKT ?ag ] .
+
+  Filter(bif:st_intersects(?sg, ?ag))
+}
+LIMIT 10

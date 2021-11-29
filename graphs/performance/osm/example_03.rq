@@ -1,0 +1,8 @@
+# 3: Get all icons associated with the schema
+
+Prefix lgdo: <http://linkedgeodata.org/ontology/>
+
+Select *
+From <http://linkedgeodata.org> {
+  ?s lgdo:schemaIcon ?o .
+}

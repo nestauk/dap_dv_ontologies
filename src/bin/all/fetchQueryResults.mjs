@@ -1,7 +1,10 @@
-import { querySparql } from 'queries/fetchQuery.mjs';
-import { program } from 'commander'
 import { promises as fs, constants } from 'fs'
 import * as path from 'path'
+
+import { program } from 'commander'
+
+import { querySparql } from 'queries/fetchQuery.mjs';
+
 
 program
 .option('-f, --force', 'Force write over existing results')
@@ -30,12 +33,19 @@ const zip2 = (a1, a2) => a1.map((x, i) => [x, a2[i]]);
 		return fs.readFile(path.join(options.path, file), { encoding: 'utf-8'});
 	}));
 
-	const results = await Promise.all(queries.map(query => {
-		return querySparql('virtuoso', query, { format: 'text/csv' })
-	}));
+	const results =
+		await Promise.all(zip2(queries, queryFiles).map(([query, file],) => {
+			let filePath = path.join(options.path, file);
+			return querySparql(
+				'virtuoso', query,
+				{ file: filePath, format: 'text/csv'}
+			)
+		}));
 
 	await Promise.all(zip2(queryFiles, results).map(([file, result],) => {
-		const outPath = path.join(options.path, file.replace('.rq', '.csv'));
-		return fs.writeFile(outPath, result);
+		if (result) {
+			const outPath = path.join(options.path, file.replace('.rq', '.csv'));
+			return fs.writeFile(outPath, result);
+		}
 	}));
 })();

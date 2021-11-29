@@ -1,8 +1,48 @@
 # Open Street Map ontology
 
-We've agreed to use their [releases](https://hobbitdata.informatik.uni-leipzig.de/LinkedGeoData/downloads.linkedgeodata.org/releases/2015-11-02/) for now, as the LinkedGeoData software is old and would likely take some time to get running.
+Technical documentation can be found at http://linkedgeodata.org/
 
-There's a short [script](../../src/bin/OSM/download_latest_lgd_releases.sh) that will download these files automatically before unzipping and ingesting.
+Graph IRI: `http://linkedgeodata.org`
+
+## Data source
+
+We've agreed to use their [releases](https://hobbitdata.informatik.uni-leipzig.de/LinkedGeoData/downloads.linkedgeodata.org/releases/2015-11-02/) for now, as the LinkedGeoData software is old and would 
+likely take some time to get running.
+
+There's a short [script](../../src/bin/OSM/download_latest_lgd_releases.sh) that 
+will download these files automatically before unzipping and ingesting.
+
+## SPARQL Queries
+
+The example queres found in [graphs/performance/osm](../../performance/osm) are
+taken from the LinkedGeoData site [here](http://linkedgeodata.org/docs/examples/osm-queries.html)
+
+For the time being `example_07.rq`, "Find all schools within a 5km radius around
+a specific location, and for each school find coffeeshops that are closer than 
+1km.", is omitted as it is causing a bug.
+
+### Empty Result Sets
+
+- `example_01.rq`
+- `example_03.rq`
+- `example_04.rq`
+- `example_05.rq`
+
+#### Possible reasons for empty result sets:
+
+- We're using a subset of the OSM data.
+- Some quirks with virtuoso and Geo data - known bugs with `RDF box`.
+
+### SPARQL errors
+
+- `example_07.rq`
+
+#### Possible reasons for errors
+
+`Virtuoso 22003 Error SR586: Incomplete RDF box as 
+argument 0 for st_intersects().`
+
+## Notes
 
 Using a subset of files for now:
 
@@ -20,6 +60,8 @@ Using a subset of files for now:
 ```
 
 Total: `91G`
+
+## cURL
 
 cURL command for `neptune`:
 
