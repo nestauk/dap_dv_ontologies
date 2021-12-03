@@ -1,0 +1,126 @@
+"sName","pTo","pFrom","oName"
+"Obesity/diagnostic imaging","http://id.nlm.nih.gov/mesh/vocab#hasDescriptor",,
+"Obesity/blood","http://id.nlm.nih.gov/mesh/vocab#hasDescriptor",,
+"Obesity/cerebrospinal fluid","http://id.nlm.nih.gov/mesh/vocab#hasDescriptor",,
+"Obesity/chemically induced","http://id.nlm.nih.gov/mesh/vocab#hasDescriptor",,
+"Obesity/classification","http://id.nlm.nih.gov/mesh/vocab#hasDescriptor",,
+"Obesity/complications","http://id.nlm.nih.gov/mesh/vocab#hasDescriptor",,
+"Obesity/congenital","http://id.nlm.nih.gov/mesh/vocab#hasDescriptor",,
+"Obesity/diagnosis","http://id.nlm.nih.gov/mesh/vocab#hasDescriptor",,
+"Obesity/diet therapy","http://id.nlm.nih.gov/mesh/vocab#hasDescriptor",,
+"Obesity/economics","http://id.nlm.nih.gov/mesh/vocab#hasDescriptor",,
+"Obesity/embryology","http://id.nlm.nih.gov/mesh/vocab#hasDescriptor",,
+"Obesity/enzymology","http://id.nlm.nih.gov/mesh/vocab#hasDescriptor",,
+"Obesity/ethnology","http://id.nlm.nih.gov/mesh/vocab#hasDescriptor",,
+"Obesity/etiology","http://id.nlm.nih.gov/mesh/vocab#hasDescriptor",,
+"Obesity/genetics","http://id.nlm.nih.gov/mesh/vocab#hasDescriptor",,
+"Obesity/history","http://id.nlm.nih.gov/mesh/vocab#hasDescriptor",,
+"Obesity/immunology","http://id.nlm.nih.gov/mesh/vocab#hasDescriptor",,
+"Obesity/metabolism","http://id.nlm.nih.gov/mesh/vocab#hasDescriptor",,
+"Obesity/microbiology","http://id.nlm.nih.gov/mesh/vocab#hasDescriptor",,
+"Obesity/mortality","http://id.nlm.nih.gov/mesh/vocab#hasDescriptor",,
+"Obesity/nursing","http://id.nlm.nih.gov/mesh/vocab#hasDescriptor",,
+"Obesity/epidemiology","http://id.nlm.nih.gov/mesh/vocab#hasDescriptor",,
+"Obesity/parasitology","http://id.nlm.nih.gov/mesh/vocab#hasDescriptor",,
+"Obesity/pathology","http://id.nlm.nih.gov/mesh/vocab#hasDescriptor",,
+"Obesity/physiopathology","http://id.nlm.nih.gov/mesh/vocab#hasDescriptor",,
+"Obesity/prevention & control","http://id.nlm.nih.gov/mesh/vocab#hasDescriptor",,
+"Obesity/psychology","http://id.nlm.nih.gov/mesh/vocab#hasDescriptor",,
+"[OBSOLETE] Obesity/radiography","http://id.nlm.nih.gov/mesh/vocab#hasDescriptor",,
+"[OBSOLETE] Obesity/radionuclide imaging","http://id.nlm.nih.gov/mesh/vocab#hasDescriptor",,
+"Obesity/radiotherapy","http://id.nlm.nih.gov/mesh/vocab#hasDescriptor",,
+"Obesity/rehabilitation","http://id.nlm.nih.gov/mesh/vocab#hasDescriptor",,
+"Obesity/surgery","http://id.nlm.nih.gov/mesh/vocab#hasDescriptor",,
+"Obesity/therapy","http://id.nlm.nih.gov/mesh/vocab#hasDescriptor",,
+"Obesity/urine","http://id.nlm.nih.gov/mesh/vocab#hasDescriptor",,
+"Obesity/veterinary","http://id.nlm.nih.gov/mesh/vocab#hasDescriptor",,
+"[OBSOLETE] Obesity/ultrasonography","http://id.nlm.nih.gov/mesh/vocab#hasDescriptor",,
+"Obesity/virology","http://id.nlm.nih.gov/mesh/vocab#hasDescriptor",,
+"Obesity, Morbid","http://id.nlm.nih.gov/mesh/vocab#broaderDescriptor",,
+"Bariatrics","http://id.nlm.nih.gov/mesh/vocab#seeAlso",,
+"Obesity/drug therapy","http://id.nlm.nih.gov/mesh/vocab#hasDescriptor",,
+"Tub protein, mouse","http://id.nlm.nih.gov/mesh/vocab#indexerConsiderAlso",,
+"MZB1 protein, human","http://id.nlm.nih.gov/mesh/vocab#indexerConsiderAlso",,
+"Obesity, Maternal","http://id.nlm.nih.gov/mesh/vocab#broaderDescriptor",,
+"Weight Gain","http://id.nlm.nih.gov/mesh/vocab#seeAlso",,
+"TUB protein, human","http://id.nlm.nih.gov/mesh/vocab#indexerConsiderAlso",,
+"[OBSOLETE] Biemond syndrome type 2","http://id.nlm.nih.gov/mesh/vocab#preferredMappedTo",,
+"Macrosomia obesity macrocephaly ocular abnormalities","http://id.nlm.nih.gov/mesh/vocab#preferredMappedTo",,
+"Clark-Baraitser syndrome","http://id.nlm.nih.gov/mesh/vocab#preferredMappedTo",,
+"Cohen syndrome","http://id.nlm.nih.gov/mesh/vocab#preferredMappedTo",,
+"Vasquez Hurst Sotos syndrome","http://id.nlm.nih.gov/mesh/vocab#preferredMappedTo",,
+"Borjeson-Forssman-Lehmann syndrome","http://id.nlm.nih.gov/mesh/vocab#preferredMappedTo",,
+"Wilson-Turner X-linked mental retardation syndrome","http://id.nlm.nih.gov/mesh/vocab#preferredMappedTo",,
+"Young Hughes syndrome","http://id.nlm.nih.gov/mesh/vocab#preferredMappedTo",,
+"MORM syndrome","http://id.nlm.nih.gov/mesh/vocab#preferredMappedTo",,
+"MEHMO syndrome","http://id.nlm.nih.gov/mesh/vocab#preferredMappedTo",,
+"Ayazi syndrome","http://id.nlm.nih.gov/mesh/vocab#preferredMappedTo",,
+"Camera Marugo Cohen syndrome","http://id.nlm.nih.gov/mesh/vocab#preferredMappedTo",,
+"Prader-Willi Syndrome","http://id.nlm.nih.gov/mesh/vocab#broaderDescriptor",,
+"Proprotein Convertase 1 3 Deficiency","http://id.nlm.nih.gov/mesh/vocab#preferredMappedTo",,
+"Midface Hypoplasia, Obesity, Developmental Delay, and Neonatal Hypotonia","http://id.nlm.nih.gov/mesh/vocab#preferredMappedTo",,
+"Obesity, Hyperphagia, and Developmental Delay","http://id.nlm.nih.gov/mesh/vocab#preferredMappedTo",,
+"MOMES Syndrome","http://id.nlm.nih.gov/mesh/vocab#preferredMappedTo",,
+"Short Stature-Obesity Syndrome","http://id.nlm.nih.gov/mesh/vocab#preferredMappedTo",,
+"Prolactin Deficiency with Obesity and Enlarged Testes","http://id.nlm.nih.gov/mesh/vocab#preferredMappedTo",,
+"Hyperphagia","http://id.nlm.nih.gov/mesh/vocab#seeAlso",,
+"Obesity, Metabolically Benign","http://id.nlm.nih.gov/mesh/vocab#broaderDescriptor",,
+"Obesity Hypoventilation Syndrome","http://id.nlm.nih.gov/mesh/vocab#broaderDescriptor",,
+"Proopiomelanocortin Deficiency","http://id.nlm.nih.gov/mesh/vocab#preferredMappedTo",,
+"Biemond syndrome II","http://id.nlm.nih.gov/mesh/vocab#preferredMappedTo",,
+"Coloboma-Obesity-Hypogenitalism-Mental Retardation Syndrome","http://id.nlm.nih.gov/mesh/vocab#preferredMappedTo",,
+"Wilms Tumor, Aniridia, Genitourinary Anomalies, Mental Retardation, and Obesity Syndrome","http://id.nlm.nih.gov/mesh/vocab#preferredMappedTo",,
+"[OBSOLETE] MEDA-7 protein, human","http://id.nlm.nih.gov/mesh/vocab#indexerConsiderAlso",,
+"Obesity Management","http://id.nlm.nih.gov/mesh/vocab#seeAlso",,
+"Body Weight","http://id.nlm.nih.gov/mesh/vocab#seeAlso",,
+"Obesity, Abdominal","http://id.nlm.nih.gov/mesh/vocab#broaderDescriptor",,
+"Pediatric Obesity","http://id.nlm.nih.gov/mesh/vocab#broaderDescriptor",,
+,,"http://id.nlm.nih.gov/mesh/vocab#seeAlso","Bariatrics"
+,,"http://id.nlm.nih.gov/mesh/vocab#broaderDescriptor","Overweight"
+,,"http://id.nlm.nih.gov/mesh/vocab#treeNumber","E01.370.600.115.100.160.120.699.500"
+,,"http://id.nlm.nih.gov/mesh/vocab#treeNumber","G07.100.100.160.120.699.500"
+,,"http://id.nlm.nih.gov/mesh/vocab#preferredConcept","Obesity"
+,,"http://id.nlm.nih.gov/mesh/vocab#seeAlso","Appetite Depressants"
+,,"http://id.nlm.nih.gov/mesh/vocab#seeAlso","Anti-Obesity Agents"
+,,"http://id.nlm.nih.gov/mesh/vocab#seeAlso","Lipectomy"
+,,"http://id.nlm.nih.gov/mesh/vocab#treeNumber","C18.654.726.500"
+,,"http://id.nlm.nih.gov/mesh/vocab#treeNumber","C23.888.144.699.500"
+,,"http://id.nlm.nih.gov/mesh/vocab#allowableQualifier","diagnostic imaging"
+,,"http://id.nlm.nih.gov/mesh/vocab#allowableQualifier","blood"
+,,"http://id.nlm.nih.gov/mesh/vocab#allowableQualifier","cerebrospinal fluid"
+,,"http://id.nlm.nih.gov/mesh/vocab#allowableQualifier","chemically induced"
+,,"http://id.nlm.nih.gov/mesh/vocab#allowableQualifier","classification"
+,,"http://id.nlm.nih.gov/mesh/vocab#allowableQualifier","complications"
+,,"http://id.nlm.nih.gov/mesh/vocab#allowableQualifier","congenital"
+,,"http://id.nlm.nih.gov/mesh/vocab#allowableQualifier","diagnosis"
+,,"http://id.nlm.nih.gov/mesh/vocab#allowableQualifier","diet therapy"
+,,"http://id.nlm.nih.gov/mesh/vocab#allowableQualifier","drug therapy"
+,,"http://id.nlm.nih.gov/mesh/vocab#allowableQualifier","economics"
+,,"http://id.nlm.nih.gov/mesh/vocab#allowableQualifier","embryology"
+,,"http://id.nlm.nih.gov/mesh/vocab#allowableQualifier","enzymology"
+,,"http://id.nlm.nih.gov/mesh/vocab#allowableQualifier","ethnology"
+,,"http://id.nlm.nih.gov/mesh/vocab#allowableQualifier","etiology"
+,,"http://id.nlm.nih.gov/mesh/vocab#allowableQualifier","genetics"
+,,"http://id.nlm.nih.gov/mesh/vocab#allowableQualifier","history"
+,,"http://id.nlm.nih.gov/mesh/vocab#allowableQualifier","immunology"
+,,"http://id.nlm.nih.gov/mesh/vocab#allowableQualifier","metabolism"
+,,"http://id.nlm.nih.gov/mesh/vocab#allowableQualifier","microbiology"
+,,"http://id.nlm.nih.gov/mesh/vocab#allowableQualifier","mortality"
+,,"http://id.nlm.nih.gov/mesh/vocab#allowableQualifier","nursing"
+,,"http://id.nlm.nih.gov/mesh/vocab#allowableQualifier","epidemiology"
+,,"http://id.nlm.nih.gov/mesh/vocab#allowableQualifier","parasitology"
+,,"http://id.nlm.nih.gov/mesh/vocab#allowableQualifier","pathology"
+,,"http://id.nlm.nih.gov/mesh/vocab#allowableQualifier","physiopathology"
+,,"http://id.nlm.nih.gov/mesh/vocab#allowableQualifier","prevention & control"
+,,"http://id.nlm.nih.gov/mesh/vocab#allowableQualifier","psychology"
+,,"http://id.nlm.nih.gov/mesh/vocab#allowableQualifier","radiotherapy"
+,,"http://id.nlm.nih.gov/mesh/vocab#allowableQualifier","rehabilitation"
+,,"http://id.nlm.nih.gov/mesh/vocab#allowableQualifier","surgery"
+,,"http://id.nlm.nih.gov/mesh/vocab#allowableQualifier","therapy"
+,,"http://id.nlm.nih.gov/mesh/vocab#allowableQualifier","urine"
+,,"http://id.nlm.nih.gov/mesh/vocab#allowableQualifier","veterinary"
+,,"http://id.nlm.nih.gov/mesh/vocab#allowableQualifier","virology"
+,,"http://id.nlm.nih.gov/mesh/vocab#broaderDescriptor","Overnutrition"
+,,"http://id.nlm.nih.gov/mesh/vocab#seeAlso","Body Weight"
+,,"http://id.nlm.nih.gov/mesh/vocab#seeAlso","Skinfold Thickness"
+,,"http://id.nlm.nih.gov/mesh/vocab#seeAlso","Diet, Reducing"

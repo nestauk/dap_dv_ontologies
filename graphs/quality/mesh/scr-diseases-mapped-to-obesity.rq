@@ -1,0 +1,11 @@
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX meshv: <http://id.nlm.nih.gov/mesh/vocab#>
+PREFIX mesh: <http://id.nlm.nih.gov/mesh/>
+
+SELECT ?disease ?label
+FROM <http://id.nlm.nih.gov/mesh>
+WHERE {
+  ?disease a meshv:SCR_Disease .
+  ?disease meshv:preferredMappedTo mesh:D009765 .
+  ?disease rdfs:label ?label .
+}

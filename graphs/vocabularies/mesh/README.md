@@ -1,8 +1,11 @@
 # MeSH Ontology
 
 Technical documentation can be found at https://hhs.github.io/meshrdf/.
-
 Graph IRI: `http://id.nlm.nih.gov/mesh`
+
+The SPARQL queries found at [graphs/performance/mesh](../../quality/mesh) are
+taken from the [MeSH Documentation](https://hhs.github.io/meshrdf/sample-queries)
+and the queries in this repo are numbered the same as the examples given there.
 
 cURL command for `neptune`:
 
