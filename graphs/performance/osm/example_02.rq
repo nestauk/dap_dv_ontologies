@@ -1,0 +1,18 @@
+#2: Retrieve all amenities 100m from Connewitz Kreuz
+
+Prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix ogc: <http://www.opengis.net/ont/geosparql#>
+Prefix geom: <http://geovocab.org/geometry#>
+Prefix lgdo: <http://linkedgeodata.org/ontology/>
+
+Select *
+From <http://linkedgeodata.org> {
+  ?s
+    a lgdo:Amenity ;
+    rdfs:label ?l ;    
+    geom:geometry [
+      ogc:asWKT ?g
+    ] .
+
+    Filter(bif:st_intersects (?g, bif:st_point (12.372966, 51.310228), 0.1)) .
+}

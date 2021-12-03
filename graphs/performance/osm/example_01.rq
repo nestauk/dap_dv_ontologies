@@ -1,0 +1,24 @@
+# 1: Retrieve all amenities 100m from Leipzig Central Station
+
+Prefix lgdo: <http://linkedgeodata.org/ontology/>
+Prefix geom: <http://geovocab.org/geometry#>
+Prefix ogc: <http://www.opengis.net/ont/geosparql#>
+Prefix owl: <http://www.w3.org/2002/07/owl#>
+
+Select * {
+  ?s
+    owl:sameAs <http://dbpedia.org/resource/Leipzig_Hauptbahnhof> ;
+    geom:geometry [
+      ogc:asWKT ?sg
+    ] .
+
+  ?x
+    a lgdo:Amenity ;
+    rdfs:label ?l ;    
+    geom:geometry [
+      ogc:asWKT ?xg
+    ] .
+
+
+    Filter(bif:st_intersects (?sg, ?xg, 0.1)) .
+} Limit 10
