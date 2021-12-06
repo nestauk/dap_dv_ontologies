@@ -1,0 +1,18 @@
+SELECT DISTINCT ?v3 ?v4 ?v5
+WHERE
+{
+    { 
+        ?v3 dbp-prop:series %% v1 %%; 
+            foaf:name ?v4 ; 
+            rdfs:comment ?v5 ; 
+            rdf:type %% v0 %% .
+    } 
+    UNION 
+    { 
+        ?v3 dbp-prop:series ?v8 .
+        ?v8 dbp-prop:redirect %% v1 %% .
+        ?v3 foaf:name ?v4 ; 
+            rdfs:comment ?v5 ; 
+            rdf:type %% v0 %% .
+    } 
+}

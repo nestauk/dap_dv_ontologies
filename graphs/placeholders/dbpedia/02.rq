@@ -1,0 +1,6 @@
+SELECT *
+WHERE
+{
+    %% v %% ?v2 ?v1 .
+    FILTER (?v2 = dbpedia2:redirect || ?v2 = dbp-prop:redirect) 
+}

@@ -1,0 +1,11 @@
+SELECT DISTINCT ?v2 ?v3 
+{ 
+    { ?v2 skos:subject %% v %% . }
+    UNION 
+    { ?v2 skos:subject dbp-cat:Prefectures_in_France . }
+    UNION 
+    { ?v2 skos:subject dbp-cat:German_state_capitals . } 
+    
+    ?v2 rdfs:label ?v3 .
+    FILTER (lang(?v3) = 'fr') 
+}

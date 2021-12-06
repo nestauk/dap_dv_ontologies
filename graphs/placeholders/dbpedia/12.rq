@@ -1,0 +1,9 @@
+SELECT DISTINCT ?v5
+WHERE
+{
+    ?v2 rdf:type dbp-owl:Person .
+    ?v2 dbp-owl:nationality ?v4 .
+    ?v4 rdfs:label ?v5 .
+    ?v2 rdfs:label %% v %% .
+    FILTER (lang (?v5) = 'en') 
+}

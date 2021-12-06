@@ -1,0 +1,18 @@
+SELECT *
+WHERE
+{
+    ?v2 a dbp-owl:Settlement ; 
+        rdfs:label %% v %% .
+    ?v6 a dbp-owl:Airport .
+    
+    { ?v6 dbp-owl:city ?v2 . } 
+    UNION 
+    { ?v6 dbp-owl:location ?v2 } 
+    
+    {?v6 dbp-prop:iata ?v5 .} 
+    UNION 
+    {?v6 dbp-owl:iataLocationIdentifier ?v5 . } 
+    
+    OPTIONAL { ?v6 foaf:homepage ?v7 . } 
+    OPTIONAL { ?v6 dbp-prop:nativename ?v8 . } 
+}

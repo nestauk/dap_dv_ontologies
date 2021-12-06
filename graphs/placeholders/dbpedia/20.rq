@@ -1,0 +1,22 @@
+SELECT *
+WHERE
+{
+    ?v6 a dbp-owl:PopulatedPlace ; 
+        dbp-owl:abstract ?v1 ; 
+        rdfs:label ?v2 ; 
+        geo:lat ?v3 ; 
+        geo:long ?v4 .
+
+    { ?v6 rdfs:label %% v %%. } 
+    UNION 
+    { ?v5 dbp-prop:redirect ?v6 ; 
+          rdfs:label %% v %% .
+    } 
+
+    OPTIONAL { ?v6 foaf:depiction ?v8 . } 
+    OPTIONAL { ?v6 foaf:homepage ?v10 . } 
+    OPTIONAL { ?v6 dbp-owl:populationTotal ?v12 . }
+    OPTIONAL { ?v6 dbp-owl:thumbnail ?v14 . } 
+    
+    FILTER (langMatches(lang(?v1), 'de') && langMatches(lang(?v2), 'de')) 
+}

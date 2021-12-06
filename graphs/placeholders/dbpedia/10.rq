@@ -1,0 +1,15 @@
+SELECT DISTINCT ?v0 
+{ 
+    ?v3 foaf:page ?v0 .
+    ?v3 rdf:type dbp-owl:SoccerPlayer .
+    ?v3 dbp-prop:position ?v6 .
+    ?v3 dbp-prop:clubs ?v8 .
+    ?v8 dbp-owl:capacity ?v1 .
+    ?v3dbp-owl:birthPlace ?v5 .
+    ?v5 ?v4 ?v2 .
+    OPTIONAL { ?v3dbp-owl:number ?v9 . } 
+    FILTER (?v4 = dbp-prop:populationEstimate || ?v4 = dbp-prop:populationCensus || ?v4 = dbp-prop:statPop) 
+    FILTER (xsd:integer (?v2) > %% v1 %%) .
+    FILTER (xsd:integer (?v9) < %% v0 %%) .
+    FILTER (?v6 = 'Goalkeeper'@en || ?v6 = dbpedia:Goalkeeper_ %28 association_football %29 || ?v6 = dbpedia:Goalkeeper_ %28 football %29) 
+}

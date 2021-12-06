@@ -1,0 +1,21 @@
+SELECT distinct ?v3 ?v4 ?v2
+WHERE
+{
+    { 
+        %% v %% dbp-prop:subsid ?v3 
+        OPTIONAL {?v2 %% v %% dbp-prop:parent }
+        OPTIONAL { %% v %% dbp-prop:divisions ?v4 }
+    } 
+    UNION 
+    {
+        ?v2 %%v %% dbp-prop:parent .
+        OPTIONAL { %% v %% dbp-prop:subsid ?v3 } 
+        OPTIONAL { %% v %% dbp-prop:divisions ?v4 }
+    } 
+    UNION 
+    { 
+        %% v %% dbp-prop:divisions ?v4 
+        OPTIONAL { %% v %% dbp-prop:subsid ?v3 } 
+        OPTIONAL {?v2 %% v %% dbp-prop:parent }
+    } 
+}

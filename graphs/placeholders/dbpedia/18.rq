@@ -1,0 +1,25 @@
+SELECT ?v3 ?v4 ?v5
+WHERE
+{
+    { 
+        %% v %% ?v3 ?v4 .
+        FILTER (
+            (STR(?v3) = 'http://www.w3.org/2000/01/rdf-schema#label' && lang(?v4) = 'en') 
+            || (STR(?v3) = 'http://dbpedia.org/ontology/abstract' && lang(?v4) = 'en')
+            || (STR(?v3) = 'http://www.w3.org/2000/01/rdf-schema#comment'&& lang(?v4) = 'en ') 
+            || (
+                STR(?v3) != 'http://dbpedia.org/ontology/abstract' 
+                && STR(?v3) != 'http://www.w3.org/2000/01/rdf-schema#comment' 
+                && STR(?v3) != 'http://www.w3.org/2000/01/rdf-schema#label'
+            )
+        ) 
+    } 
+    UNION 
+    { 
+        ?v5 ?v3 %% v %% .
+        FILTER (
+            STR (?v3) = 'http://dbpedia.org/ontology/owner'
+            || STR (?v3) = 'http://dbpedia.org/property/redirect'
+        ) 
+    } 
+}

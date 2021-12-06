@@ -1,0 +1,12 @@
+SELECT * 
+WHERE
+{
+    { 
+        %% v %% rdfs:comment ?v0 .
+        FILTER (lang(?v0) = 'en')
+    }
+    UNION 
+    { %% v %% foaf:depiction ?v1 }
+    UNION 
+    { %% v %% foaf:homepage ?v2 }
+}

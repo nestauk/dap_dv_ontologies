@@ -1,0 +1,9 @@
+SELECT ?v4 ?v8 ?v10
+WHERE
+{
+    ?v5 dbp-owl:thumbnail ?v4 .
+    ?v5 rdf:type dbp-owl:Person .
+    ?v5 rdfs:label %% v %% .
+    ?v5 foaf:page ?v8 .
+    OPTIONAL { ?v5 foaf:homepage ?v10. } 
+}
