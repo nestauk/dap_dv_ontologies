@@ -1,3 +1,5 @@
+#!/bin/bash
+
 queryDirs=("performance" "quality")
 
 for dir in ${queryDirs[@]}

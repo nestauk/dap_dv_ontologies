@@ -4,3 +4,6 @@ node_modules
 .vscode
 .DS_Store
 
+src/benchmarking/*
+!src/benchmarking/config.yml
+!src/benchmarking/README.md
