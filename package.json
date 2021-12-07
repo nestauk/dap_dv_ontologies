@@ -10,7 +10,9 @@
   },
   "description": "A repository for tracking work done on ontologies at Nesta. Mainly for creating issues on GitHub and saving interesting queries, as well as documenting the work and progress being made on Ontologies and using Linked Data sources.",
   "devDependencies": {
-    "eslint": "^8.2.0"
+    "dayjs": "^1.10.7",
+    "eslint": "^8.2.0",
+    "mocha": "^9.1.3"
   },
   "homepage": "https://github.com/nestauk/ontologies#readme",
   "keywords": [
@@ -32,6 +34,7 @@
     "url": "git+https://github.com/nestauk/ontologies.git"
   },
   "scripts": {
+    "test": "mocha --recursive --parallel src/test",
     "benchmarkAllSparqlQueries": "bash src/bin/all/benchmarkAllQueries.sh",
     "fetchAllSparqlQueryResults": "bash src/bin/all/fetchAllQueryResults.sh",
     "getIguanaJarZip": "wget https://github.com/dice-group/IGUANA/releases/download/v3.3.0/iguana-3.3.0.zip -P src/benchmarking",

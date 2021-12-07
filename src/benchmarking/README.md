@@ -39,3 +39,24 @@ and run Iguana.
 The `postinstall` script will only download the `.zip` of the relevant iguana
 binaries. Users must unzip these files manually for the time being before
 being able to run `npm run benchmarkAllSparqlQueries`.
+
+# Results
+
+Preliminary results are uploaded to Virtuoso and can be queried like so:
+
+```
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX iprop: <http://iguana-benchmark.eu/properties/>
+PREFIX iont: <http://iguana-benchmark.eu/class/>
+PREFIX ires: <http://iguana-benchmark.eu/resource/>
+
+SELECT ?taskID ?database ?noq ?QMPH ?noQPH {
+    ?suiteID rdf:type iont:Suite . 
+    ?suiteID iprop:experiment ?expID .
+    ?expID iprop:task ?taskID .
+    ?taskID iprop:connection ?database .
+    ?taskID iprop:NoQ ?noq .
+    ?taskID iprop:QMPH ?QMPH .
+    ?taskID iprop:NoQPH ?noQPH .
+}
+```
