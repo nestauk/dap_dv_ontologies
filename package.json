@@ -3,9 +3,10 @@
     "url": "https://github.com/nestauk/ontologies/issues"
   },
   "dependencies": {
+    "cheerio": "^1.0.0-rc.10",
     "commander": "^8.3.0",
-    "node-fetch": "^3.1.0",
-    "cheerio": "^1.0.0-rc.10"
+    "glob": "^7.2.0",
+    "node-fetch": "^3.1.0"
   },
   "description": "A repository for tracking work done on ontologies at Nesta. Mainly for creating issues on GitHub and saving interesting queries, as well as documenting the work and progress being made on Ontologies and using Linked Data sources.",
   "devDependencies": {
@@ -31,9 +32,12 @@
     "url": "git+https://github.com/nestauk/ontologies.git"
   },
   "scripts": {
-    "fetchAllSparqlQueryResults": "bash ./src/bin/all/fetchAllQueryResults.sh",
+    "benchmarkAllSparqlQueries": "bash src/bin/all/benchmarkAllQueries.sh",
+    "fetchAllSparqlQueryResults": "bash src/bin/all/fetchAllQueryResults.sh",
+    "getIguanaJarZip": "wget https://github.com/dice-group/IGUANA/releases/download/v3.3.0/iguana-3.3.0.zip -P src/benchmarking",
     "lgdFetchReleases": "bash src/bin/linkedGeoData/fetchReleases.sh",
-    "lgdFetchURLs": "node src/bin/linkedGeoData/fetchURLs.js"
+    "lgdFetchURLs": "node src/bin/linkedGeoData/fetchURLs.js",
+    "postinstall": "bash src/bin/all/postinstall.sh"
   },
   "version": "0.0.1"
 }

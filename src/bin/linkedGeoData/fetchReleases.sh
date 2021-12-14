@@ -1,3 +1,5 @@
+#!/bin/bash
+
 if [ $# -ne 1 ] || [ ! -d $1 ]; then
     echo "You must supply a valid path to the output directory"
     exit
