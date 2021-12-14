@@ -23,7 +23,9 @@ From <http://linkedgeodata.org> {
     ] .
 
   Filter (
-    bif:st_intersects (?schoolGeo, bif:st_point (4.892222, 52.373056), 5) &&
+    # Commenting out below as for some reason it's giving this error:
+    # Incomplete RDF box as argument 0 for st_intersects().
+    # bif:st_intersects (?schoolGeo, bif:st_point (4.892222, 52.373056), 5) &&
     bif:st_intersects (?coffeeShopGeo, ?schoolGeo, 1)
   ) .
 }
