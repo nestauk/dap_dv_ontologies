@@ -1,36 +1,36 @@
 # you can ignore this for now
 datasets:
-  - name: 'Dataset'
-    # not used for now, but could be useful in future
-    # file: 'some-dataset-file.nt'
+    - name: 'Dataset'
+      # not used for now, but could be useful in future
+      # file: 'some-dataset-file.nt'
 
 #Your connection
 connections:
-  - name: 'Virtuoso'
-    endpoint: 'http://ec2-18-170-45-162.eu-west-2.compute.amazonaws.com:8890/sparql'
-  - name: 'Neptune'
-    endpoint: 'https://geonames-rdf-01.cluster-ro-ci9272ypsbyf.eu-west-2.neptune.amazonaws.com:8182/sparql'
+    - name: 'Virtuoso'
+      endpoint: 'http://ec2-18-170-45-162.eu-west-2.compute.amazonaws.com:8890/sparql'
+    - name: 'Neptune'
+      endpoint: 'https://geonames-rdf-01.cluster-ro-ci9272ypsbyf.eu-west-2.neptune.amazonaws.com:8182/sparql'
 
 tasks:
-  - className: "Stresstest"
-    configuration:
-      timeLimit: 3600000 # ms
-      queryHandler:
-        className: "InstancesQueryHandler"
-      workers:
-        - threads: 2
-          className: "SPARQLWorker"
-          queriesFile: "queries.txt"
-          timeOut: 180000
+    - className: 'Stresstest'
+      configuration:
+          timeLimit: 3600000 # ms
+          queryHandler:
+              className: 'InstancesQueryHandler'
+          workers:
+              - threads: 2
+                className: 'SPARQLWorker'
+                queriesFile: 'queries.txt'
+                timeOut: 180000
 
 metrics:
-  - className: "QMPH"
-  - className: "QPS"
-  - className: "NoQPH"
-  - className: "NoQ"
-  - className: "AvgQPS"
+    - className: 'QMPH'
+    - className: 'QPS'
+    - className: 'NoQPH'
+    - className: 'NoQ'
+    - className: 'AvgQPS'
 
 storages:
-  - className: "NTFileStorage"
+    - className: 'NTFileStorage'
 
-# postScriptHook: "../bin/all/uploadBenchmarkResults.mjs -p ."
+postScriptHook: '../bin/benchmarking/uploadResults.mjs'
