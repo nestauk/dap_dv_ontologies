@@ -3,13 +3,24 @@ import { execSync } from 'child_process';
 import { promises as fs } from 'fs';
 import * as path from 'path';
 
-import { mostRecentBenchmarkFilePath } from 'queries/util.mjs';
-import { EC2, EC2ResultsDir } from '../../node_modules/config.mjs';
+import { program } from 'commander';
 
-(async () => {
-	// remove http:// from string
-	const address = EC2.slice(7);
-	const oldPath = await mostRecentBenchmarkFilePath('.');
+import { mostRecentBenchmarkFilePath } from 'queries/util.mjs';
+import {
+	EC2Domain as address,
+	EC2ResultsDir,
+} from '../../node_modules/config.mjs';
+
+program.requiredOption(
+	'-p, --path <path>',
+	'Path to directory benchmark results'
+);
+
+program.parse(process.argv);
+const options = program.opts();
+
+const main = async () => {
+	const oldPath = await mostRecentBenchmarkFilePath(options.path);
 	const newPath = oldPath.replace('results_', '');
 
 	const fileName = path.basename(newPath);
@@ -25,6 +36,8 @@ import { EC2, EC2ResultsDir } from '../../node_modules/config.mjs';
 	execSync(uploadCommand);
 	execSync(bashCommand);
 
-	await fs.copyFile(newPath, `./results/${fileName}`);
+	await fs.copyFile(newPath, `${options.path}/results/${fileName}`);
 	await fs.rm(newPath);
-})();
+};
+
+main();
