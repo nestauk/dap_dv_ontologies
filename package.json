@@ -36,6 +36,7 @@
 	"scripts": {
 		"test": "mocha --recursive --parallel src/test",
 		"benchmarkAllSparqlQueries": "bash src/bin/benchmarking/benchmarkAllQueries.sh",
+		"countAllTriples": "node src/bin/all/countAllTriples.mjs -o data/stats",
 		"fetchAllSparqlQueryResults": "bash src/bin/all/fetchAllQueryResults.sh",
 		"getIguanaJarZip": "wget https://github.com/dice-group/IGUANA/releases/download/v3.3.0/iguana-3.3.0.zip -P src/benchmarking",
 		"lgdFetchReleases": "bash src/bin/linkedGeoData/fetchReleases.sh",
