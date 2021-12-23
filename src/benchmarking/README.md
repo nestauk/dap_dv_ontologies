@@ -51,7 +51,7 @@ PREFIX iont: <http://iguana-benchmark.eu/class/>
 PREFIX ires: <http://iguana-benchmark.eu/resource/>
 
 SELECT ?taskID ?database ?noq ?QMPH ?noQPH {
-    ?suiteID rdf:type iont:Suite . 
+    ?suiteID rdf:type iont:Suite .
     ?suiteID iprop:experiment ?expID .
     ?expID iprop:task ?taskID .
     ?taskID iprop:connection ?database .
