@@ -1,0 +1,20 @@
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX iprop: <http://iguana-benchmark.eu/properties/>
+PREFIX iont: <http://iguana-benchmark.eu/class/>
+PREFIX ires: <http://iguana-benchmark.eu/resource/>
+
+# prefix g (gPredicate, gValue) is for general query - gives us featuers about 
+# the query regardless of connection.
+# prefix c (cPredicate, cValue) is for that particular connections metrics, 
+# so will give us features regarding to speed, number of failures, etc. 
+SELECT DISTINCT ?query ?gPredicate ?gValue ?cPredicate ?cValue
+WHERE
+{
+    # only want queries from connection 1/1 as this is the Virtuoso connection
+    <http://iguana-benchmark.eu/resource/1641469666/1/1> iprop:query ?query .
+    ?query ?cPredicate ?cValue .
+    ?query iprop:queryID ?queryID .
+    ?queryID ?gPredicate ?gValue .
+}
+ORDER BY ?query
