@@ -7,3 +7,4 @@ WHERE {
     # A.PCLI is feature  code for 'independent political entity'
     ?country gn:featureCode <https://www.geonames.org/ontology#A.PCLI> .
 }
+ORDER BY ?name
